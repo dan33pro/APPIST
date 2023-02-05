@@ -5,8 +5,23 @@
       "@pages/*": [
         "pages/*"
       ],
+      "@context/*": [
+        "context/*"
+      ],
+      "@containers/*": [
+        "containers/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
       "@styles/*": [
         "styles/*"
+      ],
+      "@logos/*": [
+        "assets/logos/*"
+      ],
+      "@images/*": [
+        "assets/images/*"
       ]
     }
   }

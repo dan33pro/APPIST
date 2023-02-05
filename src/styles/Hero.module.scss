@@ -1,0 +1,38 @@
+@import 'vars';
+
+.Hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/images/hero_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-titles {
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: $--white-tr;
+}
+
+.Hero h2 {
+    font-size: $--font-size-lg;
+    padding: 10px;
+}
+
+.Hero h4 {
+    font-size: $--font-size-md;
+    padding: 8px;
+}
+
+.Hero h2,
+.Hero h4 {
+    color: $--black;
+}

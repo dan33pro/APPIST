@@ -1,0 +1,47 @@
+@import 'vars';
+
+.nav {
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: $--white-tr;
+    border-bottom: 1px solid $--white;
+    box-shadow: 2px 2px 4px $--black;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    background: $--gray;
+    border: 1px solid $--black;
+}
+
+.nav-logo:hover {
+    background: $--white;
+}
+
+.nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    list-style: none;
+    gap: 5px;
+}
+
+.nav .item-nav {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: $--black;
+    background: $--gray;
+    border: 1px solid $--black;
+}
+
+.nav .item-nav:hover {
+    background: $--white;
+}
