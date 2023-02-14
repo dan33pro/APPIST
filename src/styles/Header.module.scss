@@ -8,9 +8,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
-    background: $--white-tr;
+    background: $--white;
     border-bottom: 1px solid $--white;
     box-shadow: 2px 2px 4px $--black;
+    z-index: 3;
 }
 
 .nav-logo {
