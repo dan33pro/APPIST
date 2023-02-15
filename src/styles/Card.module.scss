@@ -1,0 +1,40 @@
+@import 'vars';
+
+.Card {
+    display: grid;
+    max-height: calc((100vh + 0.5 * 100vh) / 3 - 20px);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 5fr 1fr;
+    padding-bottom: 20px;
+}
+
+.Card .container-info {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background: $--white;
+    z-index: 2;
+}
+
+.Card .imgCard {
+    height: 100%;
+    width: 100%;
+    grid-column: 3 / 7;
+    grid-row: 1 / 4;
+    z-index: 1;
+}
+
+.Card .card-1 {
+    grid-row: 1 / 2;
+}
+
+.Card .card-1 {
+    grid-row: 2 / 3;
+}
+
+.Card .card-1 {
+    grid-row: 3 / 4;
+}

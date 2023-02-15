@@ -11,15 +11,21 @@
 }
 
 .container-titles {
-    position: relative;
     grid-column: 2 / 4;
     grid-row: 3 / 5;
-    display: flex;
+    position: relative;
     padding: 10px 20px;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     background: $--white;
+    transition: transform 500ms ease-in;
+    will-change: transform;
     z-index: 2;
+}
+
+.container-titles.isView {
+    transform: translateX(0px);
 }
 
 .container-titles::before {

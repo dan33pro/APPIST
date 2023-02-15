@@ -1,0 +1,13 @@
+@import 'vars';
+
+.BigGrilla {
+    display: grid;
+    width: calc(100vw * (1/4));
+    height: calc(100vw * (1/4));
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.BigGrilla > div:nth-child(2n) {
+    transform: rotate(90deg);
+}
