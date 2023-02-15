@@ -1,6 +1,7 @@
 @import 'vars';
 
 .Hero {
+    padding-bottom: 80px;
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -10,6 +11,7 @@
 }
 
 .container-titles {
+    position: relative;
     grid-column: 2 / 4;
     grid-row: 3 / 5;
     display: flex;
@@ -22,7 +24,8 @@
 
 .container-titles::before {
     content: ' ';
-    position: relative;
+    position: absolute;
+    right: calc(-1 * 5vw);
     display: block;
     width: 10vw;
     height: 10px;

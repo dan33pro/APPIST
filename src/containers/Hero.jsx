@@ -1,8 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
 import styles from '@styles/Hero.module.scss';
-
-import heroImage from '@images/hero_image.jpg';
 
 const Hero = () => {
   return (

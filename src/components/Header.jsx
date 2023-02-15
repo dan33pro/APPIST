@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import logoApist from '@logos/logo_appist.png';
+import menuIcon from '@icons/menu.png';
 
 import styles from '@styles/Header.module.scss';
 
@@ -13,7 +14,11 @@ const Header = () => {
                     <Image src={logoApist} alt="logo" className={styles['nav-logo']} />
                 </div>
             </Link>
-            <ul>
+            <div className={styles['menu-boton']}>
+                <span>MENU</span>
+                <Image src={menuIcon} alt="menu boton" className={styles['menu-icon']} />
+            </div>
+            <ul className={styles.menu}>
                 <li>
                     <Link href="/" className={styles['item-nav']}>Inicio</Link>
                 </li>
