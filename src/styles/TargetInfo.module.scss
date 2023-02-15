@@ -1,0 +1,34 @@
+@import 'vars';
+
+.TargetInfo {
+    padding: 4vw;
+    display: flex;
+    align-items: center;
+}
+
+.container-info {
+    padding: 4vh 4vw;
+    gap: 10px;
+    width: calc(100vw * (3/4) / 1.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vw * (1/8) );
+    border-left: 8px solid $--white;
+}
+
+.container-info h3,
+.container-info p {
+    color: $--white;
+}
+
+.container-info h3 {
+    font-size: $--font-size-md;
+    font-weight: 400;
+}
+
+.container-info p {
+    font-size: $--font-size-sm;
+    color: $--gray;
+}
+

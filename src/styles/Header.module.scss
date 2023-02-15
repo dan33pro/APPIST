@@ -8,25 +8,54 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
-    background: $--white-tr;
+    background: $--white;
     border-bottom: 1px solid $--white;
-    box-shadow: 2px 2px 4px $--black;
+    z-index: 3;
 }
 
 .nav-logo {
     height: 60px;
     width: 60px;
     border-radius: 4px;
-    background: $--gray;
-    border: 1px solid $--black;
+    border: 1px solid transparent;
 }
 
 .nav-logo:hover {
-    background: $--white;
+    border: 1px solid $--dark-gray;
 }
 
-.nav ul {
+.nav .menu-boton {
+    position: absolute;
+    top: 0;
+    right: 2vw;
+    padding: 0 6px;
+    height: 120px;
     display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    background: $--dark-gray;
+    transition: transform 100ms ease-in;
+    will-change: transform;
+    cursor: pointer;
+}
+
+.nav .menu-boton:hover {
+    transform: translateY(5px);
+}
+
+.nav .menu-boton span {
+    color: $--white;
+    font-size: $--font-size-sm;
+}
+
+.nav .menu-icon {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+}
+
+.nav .menu {
+    display: none;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     list-style: none;
@@ -37,11 +66,10 @@
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 4px;
+    border: 1px solid transparent;
     color: $--black;
-    background: $--gray;
-    border: 1px solid $--black;
 }
 
 .nav .item-nav:hover {
-    background: $--white;
+    border: 1px solid $--dark-gray;
 }

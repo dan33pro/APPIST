@@ -1,0 +1,23 @@
+@import 'vars';
+
+.CardsContainer {
+    width: 100vw;
+    height: calc(100vh + 0.5 * 100vh);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 4fr);
+    background: $--white;
+}
+
+
+.CardsContainer .grayB {
+    position: absolute;
+    right: 0;
+    width: calc(100vw * (4/12));
+    height: inherit;
+    background: $--dark-gray;
+}
+
+.CardsContainer article {
+    grid-column: 4 / 11;
+}

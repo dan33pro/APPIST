@@ -14,6 +14,9 @@
       "@components/*": [
         "components/*"
       ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
       "@styles/*": [
         "styles/*"
       ],
@@ -22,6 +25,9 @@
       ],
       "@images/*": [
         "assets/images/*"
+      ],
+      "@icons/*": [
+        "assets/icons/*"
       ]
     }
   }

@@ -1,0 +1,11 @@
+@import 'vars';
+
+.Grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.Grilla div {
+    border: 1px solid $--gray;
+}
