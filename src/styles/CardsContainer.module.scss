@@ -24,3 +24,9 @@
 .CardsContainer article {
     grid-column: 4 / 11;
 }
+
+@media (max-width: 600px) {
+    .CardsContainer article {
+        grid-column: 2 / 12;
+    }
+}

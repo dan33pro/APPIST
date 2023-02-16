@@ -11,7 +11,7 @@
 }
 
 .container-titles {
-    min-width: 400px;
+    min-width: 300px;
     grid-column: 2 / 4;
     grid-row: 3 / 5;
     position: relative;
@@ -62,4 +62,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 600px) {
+    .image-container {
+        grid-column: 1 / 7;
+    }
+
+    .container-titles {
+        grid-column: 2 / 6;
+    }
 }

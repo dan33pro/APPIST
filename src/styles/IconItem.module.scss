@@ -24,10 +24,12 @@
 .IconItem h4 {
     padding: 10px 0;
     font-size: $--font-size-md-sm;
+    text-align: center;
     color: $--white;
 }
 
 .IconItem span {
+    text-align: justify;
     font-size: $--font-size-sm;
     color: $--gray;
 }

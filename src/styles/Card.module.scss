@@ -64,3 +64,21 @@
 .Card .container-info .icon-arrow:hover {
     transform: translateX(40%);
 }
+
+@media (max-width: 600px) {
+    .Card {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .Card .container-info {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .Card .imgCard {
+        height: 100%;
+        grid-column: 1;
+        grid-row: 1;
+    }
+}

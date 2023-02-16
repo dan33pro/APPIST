@@ -20,7 +20,7 @@
 
 .contacto .contacto-top {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr;
 }
 
@@ -34,7 +34,7 @@
 
 .contacto-top .contacto-info span {
     padding: 5px 10px;
-    font-size: $--font-size-md-sm;
+    font-size: $--font-size-sm;
     font-weight: bold;
 }
 
@@ -95,5 +95,33 @@
     margin: 0 auto;
     width: 40vw;
     color: $--gray;
-    text-align: center;
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .contacto .contacto-top {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .contacto .contacto-info span {
+        text-align: center;
+    }
+
+    .contacto .contacto-bottom {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 6fr;
+    }
+
+    .contacto .contacto-bottom div {
+        border: none;
+    }
+
+    .contacto .logo {
+        grid-row: 3;
+    }
+
+    .Bottom .info-footer {
+        width: 80vw;
+    }
 }

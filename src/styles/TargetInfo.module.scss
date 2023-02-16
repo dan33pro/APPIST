@@ -13,13 +13,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: calc(100vw * (1/8) );
+    min-height: calc(100vw * (1/8) );
     border-left: 8px solid $--white;
 }
 
 .container-info h3,
 .container-info p {
     color: $--white;
+    text-align: justify;
 }
 
 .container-info h3 {
@@ -32,3 +33,8 @@
     color: $--gray;
 }
 
+@media (max-width: 600px) {
+    .container-info {
+        width: 90vw;
+    }
+}

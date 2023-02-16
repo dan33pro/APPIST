@@ -11,3 +11,9 @@
 .BigGrilla > div:nth-child(2n) {
     transform: rotate(90deg);
 }
+
+@media (max-width: 600px) {
+    .BigGrilla {
+        display: none;
+    }
+}
