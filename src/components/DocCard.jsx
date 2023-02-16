@@ -7,7 +7,9 @@ const DocCard = (props) => {
 
     return (
         <section className={styles.DocCard}>
-            <Image className={styles.imgDoc} src={infoDoc?.img} alt={infoDoc?.nombre} />
+            <div className={styles['container-img']}>
+                <Image className={styles.imgDoc} src={infoDoc?.img} alt={infoDoc?.nombre} />
+            </div>
             <h4>{infoDoc?.nombre}</h4>
             <p>{infoDoc?.description}</p>
             <Link className={styles.link} href={infoDoc?.path} >Archivo</Link>
