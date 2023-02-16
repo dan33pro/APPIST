@@ -14,6 +14,7 @@
     grid-column: 1 / 4;
     grid-row: 2 / 3;
     display: grid;
+    min-width: 250px;
     grid-template-columns: 6fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
@@ -53,6 +54,7 @@
 
 .Card .container-info .icon-arrow {
     width: 50%;
+    min-width: 32px;
     height: auto;
     cursor: pointer;
     transition: transform 200ms ease-in;

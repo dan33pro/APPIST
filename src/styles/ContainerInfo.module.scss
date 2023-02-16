@@ -4,6 +4,7 @@
     background: $--dark-gray;
     width: 100vw;
     height: calc(100vw * (1/4));
+    min-height: 400px;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr;

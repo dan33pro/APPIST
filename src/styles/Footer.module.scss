@@ -43,12 +43,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     list-style: none;
 }
 
 .contacto-top .list-redes-icon img {
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    height: 28px;
     transition: transform 200ms;
     will-change: transform;
 }
@@ -79,8 +80,8 @@
 }
 
 .contacto-bottom .logo {
-    width: 128px;
-    height: 128px;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
     transition: transform 200ms;
     will-change: transform;

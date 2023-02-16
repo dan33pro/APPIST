@@ -55,23 +55,3 @@
     height: 25px;
     filter: invert(100%);
 }
-
-.nav .menu {
-    display: none;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    list-style: none;
-    gap: 5px;
-}
-
-.nav .item-nav {
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    border: 1px solid transparent;
-    color: $--black;
-}
-
-.nav .item-nav:hover {
-    border: 1px solid $--dark-gray;
-}

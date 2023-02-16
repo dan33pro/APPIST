@@ -1,0 +1,68 @@
+@import 'vars';
+
+.Menu {
+    position: fixed;
+    top: 80px;
+    width: 20vw;
+    min-width: 400px;
+    height: calc(100vh - 80px);
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 8fr 1fr;
+    grid-template-columns: 1fr;
+    background: $--white;
+    box-shadow: 2px 2px 4px $--gray;
+    z-index: 5;
+}
+
+.Menu .list {
+    padding: 40px 10px;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.Menu .list li  {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Menu .list li:hover .item-list {
+    transform: translateX(10px);
+}
+
+.Menu .list li:hover {
+    background: $--light-gray;
+}
+
+.Menu .list li .item-list {
+    display: block;
+    padding: 10px 20px;
+    font-size: $--font-size-md;
+    text-decoration: none;
+    color: $--dark-gray;
+    transition: transform 200ms ease-in;
+    will-change: transform;
+}
+
+.Menu .bottom-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu .bottom-menu .logo {
+    width: 64px;
+    height: 64px;
+}
+
+.Menu .bottom-menu span {
+    font-size: $--font-size-md-sm;
+    color: $--black;
+}
