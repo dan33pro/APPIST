@@ -41,17 +41,14 @@
 .Hero h2 {
     font-size: $--font-size-lg;
     padding: 10px;
+    color: $--black;
 }
 
 .Hero h4 {
     font-size: $--font-size-md;
     font-weight: 200;
     padding: 8px;
-}
-
-.Hero h2,
-.Hero h4 {
-    color: $--black;
+    color: $--gray;
 }
 
 .image-container {

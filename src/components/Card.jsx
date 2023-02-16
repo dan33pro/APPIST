@@ -7,7 +7,6 @@ import { useEffect } from 'react';
 const Card = (props) => {
     const { cardInfo } = props;
     let cont = 1;
-    console.log(cardInfo);
 
     useEffect(() => {
         let elements = document.querySelectorAll('.'+styles.Card);
@@ -26,7 +25,7 @@ const Card = (props) => {
                     <h3>{cardInfo?.title}</h3>
                     <span>{cardInfo?.info}</span>
                 </div>
-                <Image src={iconFlecha} alt="icono flecha" />
+                <Image className={styles['icon-arrow']} src={iconFlecha} alt="icono flecha" />
             </div>
             <Image className={styles.imgCard} src={cardInfo.img} alt={cardInfo?.title + " imagen"} />
         </article>

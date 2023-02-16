@@ -18,10 +18,12 @@
     width: 60px;
     border-radius: 4px;
     border: 1px solid transparent;
+    transition: transform 200ms;
+    will-change: transform;
 }
 
 .nav-logo:hover {
-    border: 1px solid $--dark-gray;
+    transform: translateX(10px);
 }
 
 .nav .menu-boton {

@@ -1,11 +1,13 @@
 @import 'vars';
 
 .Card {
+    padding: 30px 0;
     display: grid;
     max-height: calc((100vh + 0.5 * 100vh) / 3 - 20px);
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr 5fr 1fr;
     padding-bottom: 20px;
+    overflow-y: hidden;
 }
 
 .Card .container-info {
@@ -19,10 +21,20 @@
     z-index: 2;
 }
 
+.Card .container-info .info h3 {
+    font-size: $--font-size-md;
+    padding: 10px 0;
+}
+
+.Card .container-info .info span {
+    font-size: $--font-size-sm;
+    color: $--gray;
+}
+
 .Card .imgCard {
-    height: 100%;
+    height: auto;
     width: 100%;
-    grid-column: 3 / 7;
+    grid-column: 2 / 7;
     grid-row: 1 / 4;
     z-index: 1;
 }
@@ -37,4 +49,16 @@
 
 .Card .card-1 {
     grid-row: 3 / 4;
+}
+
+.Card .container-info .icon-arrow {
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    will-change: transform;
+}
+
+.Card .container-info .icon-arrow:hover {
+    transform: translateX(40%);
 }

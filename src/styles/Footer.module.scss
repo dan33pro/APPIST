@@ -1,0 +1,98 @@
+@import 'vars';
+
+.Bottom {
+    margin: 0 auto;
+    width: 90vw;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    background: $--dark-gray;
+}
+
+.Bottom .contacto {
+    background: $--white;
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    grid-template-columns: 1fr;
+}
+
+.contacto .contacto-top {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.contacto-top .contacto-info {
+    display: grid;
+    padding: 30px 60px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.contacto-top .contacto-info span {
+    padding: 5px 10px;
+    font-size: $--font-size-md-sm;
+    font-weight: bold;
+}
+
+.contacto-top .list-redes-icon {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.contacto-top .list-redes-icon img {
+    width: 36px;
+    height: 36px;
+    transition: transform 200ms;
+    will-change: transform;
+}
+
+.contacto-top .list-redes-icon img:hover {
+    transform: translateY(-5px);
+}
+
+.contacto .contacto-bottom {
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.contacto-bottom div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-top: 5px solid $--light-gray;
+}
+
+.contacto .contacto-bottom span {
+    color: $--gray;
+    font-size: $--font-size-sm;
+}
+
+.contacto-bottom .logo {
+    width: 128px;
+    height: 128px;
+    cursor: pointer;
+    transition: transform 200ms;
+    will-change: transform;
+}
+
+.contacto-bottom .logo:hover {
+    transform: translateY(-20px);
+}
+
+.Bottom .info-footer {
+    margin: 0 auto;
+    width: 40vw;
+    color: $--gray;
+    text-align: center;
+}

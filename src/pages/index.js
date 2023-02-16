@@ -3,6 +3,8 @@ import { Inter } from '@next/font/google';
 import Hero from '@containers/Hero';
 import ContainerInfo from '@containers/ContainerInfo';
 import CardsContainer from '@containers/CardsContainer';
+import ListIcon from '@containers/ListIcon';
+import Footer from '@components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +20,8 @@ export default function Home() {
       <Hero />
       <ContainerInfo />
       <CardsContainer />
+      <ListIcon />
+      <Footer />
     </>
   )
 }
