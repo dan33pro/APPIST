@@ -1,14 +1,20 @@
 import Head from 'next/head';
 import { Inter } from '@next/font/google';
+import AppContext from '@context/AppContext';
+import { useContext } from 'react';
+
 import Hero from '@containers/Hero';
 import ContainerInfo from '@containers/ContainerInfo';
 import CardsContainer from '@containers/CardsContainer';
 import ListIcon from '@containers/ListIcon';
 import Footer from '@components/Footer';
+import Menu from '@components/Menu';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const {state} = useContext(AppContext);
+
   return (
     <>
       <Head>
@@ -22,6 +28,7 @@ export default function Home() {
       <CardsContainer />
       <ListIcon />
       <Footer />
+      {state.isViewMenu && <Menu />}
     </>
   )
 }

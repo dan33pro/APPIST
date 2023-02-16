@@ -2,16 +2,22 @@
 
 .IconItem {
     padding: 40px 20px;
+    margin: 5px;
     width: 20vw;
+    min-height: 250px;
+    min-width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-right: 2px solid $--gray;
+    border-left: 2px solid $--gray;
 }
 
 .IconItem .icon {
     padding: 5px;
     width: 2.8vw;
+    min-width: 40px;
     height: auto;
 }
 
@@ -24,9 +30,4 @@
 .IconItem span {
     font-size: $--font-size-sm;
     color: $--gray;
-}
-
-.icon-item-id-1,
-.icon-item-id-2 {
-    border-right: 2px solid $--gray;
 }
