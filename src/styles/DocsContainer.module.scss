@@ -1,0 +1,12 @@
+@import 'vars';
+
+.DocsContainer {
+    padding: 100px 40px;
+    gap: 20px;
+    width: 100vw;
+    background: $--dark-gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
