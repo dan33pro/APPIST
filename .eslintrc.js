@@ -9,7 +9,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:jsx-a11y/recommended', // Accesibilidad
-    'plugin:prettier/recommende', // Sintaxis
+    'plugin:prettier/recommended', // Sintaxis
     'next',
     'next/core-web-vitals',
   ],
