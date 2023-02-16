@@ -13,7 +13,4 @@ module.exports = {
     'next',
     'next/core-web-vitals',
   ],
-  rules: {
-    'semi': ['error', 'always'],
-  }
-}
+};
