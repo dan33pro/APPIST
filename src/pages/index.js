@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { Inter } from '@next/font/google';
 import AppContext from '@context/AppContext';
 import { useContext } from 'react';
 
@@ -10,10 +9,8 @@ import ListIcon from '@containers/ListIcon';
 import Footer from '@components/Footer';
 import Menu from '@components/Menu';
 
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
-  const {state} = useContext(AppContext);
+  const { state } = useContext(AppContext);
 
   return (
     <>
@@ -30,5 +27,5 @@ export default function Home() {
       <Footer />
       {state.isViewMenu && <Menu />}
     </>
-  )
+  );
 }

@@ -9,26 +9,26 @@ import menuIcon from '@icons/menu.png';
 import styles from '@styles/Header.module.scss';
 
 const Header = () => {
-    const {state, toggleMenu} = useContext(AppContext);
+  const { state, toggleMenu } = useContext(AppContext);
 
-    const handleMenu = () => {
-        let newState = !state.isViewMenu;
-        toggleMenu(newState);
-    };
+  const handleMenu = () => {
+    let newState = !state.isViewMenu;
+    toggleMenu(newState);
+  };
 
-    return (
-        <nav className={styles.nav}>
-            <Link href="/">
-                <div className={styles.containerLogo}>
-                    <Image src={logoApist} alt="logo" className={styles['nav-logo']} />
-                </div>
-            </Link>
-            <div className={styles['menu-boton']} onClick={handleMenu} onKeyDown={handleMenu}>
-                <span>MENU</span>
-                <Image src={menuIcon} alt="menu boton" className={styles['menu-icon']} />
-            </div>
-        </nav>
-    );
+  return (
+    <nav className={styles.nav}>
+      <Link href="/">
+        <div className={styles.containerLogo}>
+          <Image src={logoApist} alt="logo" className={styles['nav-logo']} />
+        </div>
+      </Link>
+      <div role="button" tabIndex={0} className={styles['menu-boton']} onClick={handleMenu} onKeyDown={handleMenu}>
+        <span>MENU</span>
+        <Image src={menuIcon} alt="menu boton" className={styles['menu-icon']} />
+      </div>
+    </nav>
+  );
 };
 
 export default Header;
