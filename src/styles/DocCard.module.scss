@@ -1,0 +1,39 @@
+@import 'vars';
+
+.DocCard {
+    width: 20vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr 1fr 1fr 2fr;
+    place-items: center;
+    background: $--white;
+    border-radius: 16px;
+}
+
+.DocCard .imgDoc {
+    width: 100%;
+    height: auto;
+}
+
+.DocCard h4 {
+    font-size: $--font-size-md-sm;
+}
+
+.DocCard p {
+    padding: 0 40px;
+    text-align: justify;
+    font-size: $--font-size-sm;
+}
+
+.DocCard .link {
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: $--white;
+    background: $--gray;
+    text-decoration: none;
+    font-size: $--font-size-md-sm;
+}
+
+
+
+

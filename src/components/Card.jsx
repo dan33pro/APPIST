@@ -1,10 +1,14 @@
 import styles from '@styles/Card.module.scss';
 import Image from 'next/image';
+import AppContext from '@context/AppContext';
+import { useRouter } from 'next/router';
 
 import iconFlecha from '@icons/flecha.png';
-import { useEffect } from 'react';
+import { useEffect, useContext } from 'react';
 
 const Card = (props) => {
+    const { state } = useContext(AppContext);
+    const router = useRouter();
     const { cardInfo } = props;
     let cont = 1;
 
@@ -16,7 +20,11 @@ const Card = (props) => {
                 cont++;
             }
         });
-    }, [])
+    }, []);
+
+    const handleRedirigir = () => {
+        router.push(state.options[cardInfo.id - 1]);
+    };
 
     return (
         <article className={styles.Card}>
@@ -25,7 +33,7 @@ const Card = (props) => {
                     <h3>{cardInfo?.title}</h3>
                     <span>{cardInfo?.info}</span>
                 </div>
-                <Image className={styles['icon-arrow']} src={iconFlecha} alt="icono flecha" />
+                <Image onClick={handleRedirigir} onKeyDown={handleRedirigir} className={styles['icon-arrow']} src={iconFlecha} alt="icono flecha" />
             </div>
             <Image className={styles.imgCard} src={cardInfo.img} alt={cardInfo?.title + " imagen"} />
         </article>
