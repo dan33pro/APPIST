@@ -1,0 +1,32 @@
+@import 'vars';
+
+.IconItem {
+    padding: 40px 20px;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.IconItem .icon {
+    padding: 5px;
+    width: 2.8vw;
+    height: auto;
+}
+
+.IconItem h4 {
+    padding: 10px 0;
+    font-size: $--font-size-md-sm;
+    color: $--white;
+}
+
+.IconItem span {
+    font-size: $--font-size-sm;
+    color: $--gray;
+}
+
+.icon-item-id-1,
+.icon-item-id-2 {
+    border-right: 2px solid $--gray;
+}
