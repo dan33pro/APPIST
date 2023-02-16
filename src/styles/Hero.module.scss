@@ -63,3 +63,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media (max-width: 600px) {
+    .image-container {
+        grid-column: 1 / 7;
+    }
+
+    .container-titles {
+        grid-column: 2 / 6;
+    }
+}

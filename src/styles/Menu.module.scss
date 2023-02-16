@@ -66,3 +66,9 @@
     font-size: $--font-size-md-sm;
     color: $--black;
 }
+
+@media (max-width: 600px) {
+    .Menu {
+        width: 100vw;
+    }
+}
