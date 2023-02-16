@@ -20,7 +20,7 @@
 
 .contacto .contacto-top {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr;
 }
 
@@ -34,7 +34,7 @@
 
 .contacto-top .contacto-info span {
     padding: 5px 10px;
-    font-size: $--font-size-md-sm;
+    font-size: $--font-size-sm;
     font-weight: bold;
 }
 
