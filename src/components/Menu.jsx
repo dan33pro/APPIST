@@ -9,29 +9,36 @@ import arrow from '@icons/flecha.png';
 import logo from '@logos/logo_appist.png';
 
 const Menu = () => {
-  const { state } = useContext(AppContext);
+  const { state, toggleMenu } = useContext(AppContext);
   const router = useRouter();
 
   const handleRedirigir = (i) => {
     router.push(state.options[i]);
+    toggleMenu(!state.isViewMenu);
   };
 
   return (
     <aside className={styles.Menu}>
       <ul className={styles.list}>
-        <li role={'menuitem'} onClick={() => handleRedirigir(0)} onKeyDown={this.handleRedirigir}>
+      <li role={'menuitem'} onClick={() => handleRedirigir(0)} onKeyDown={handleRedirigir}>
+          <Link href="/documentos" className={styles['item-list']}>
+            Inicio
+          </Link>
+          <Image src={arrow} alt="icono flecha" />
+        </li>
+        <li role={'menuitem'} onClick={() => handleRedirigir(1)} onKeyDown={handleRedirigir}>
           <Link href="/documentos" className={styles['item-list']}>
             Documentos
           </Link>
           <Image src={arrow} alt="icono flecha" />
         </li>
-        <li role={'menuitem'} onClick={() => handleRedirigir(1)} onKeyDown={this.handleRedirigir}>
+        <li role={'menuitem'} onClick={() => handleRedirigir(2)} onKeyDown={handleRedirigir}>
           <Link href="/proyecto" className={styles['item-list']}>
             Proyecto
           </Link>
           <Image src={arrow} alt="icono flecha" />
         </li>
-        <li role={'menuitem'} onClick={() => handleRedirigir(2)} onKeyDown={this.handleRedirigir}>
+        <li role={'menuitem'} onClick={() => handleRedirigir(3)} onKeyDown={handleRedirigir}>
           <Link href="/equipo" className={styles['item-list']}>
             Equipo
           </Link>

@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const initialState = {
   isViewMenu: false,
-  options: ['/documentos', '/proyecto', '/equipo'],
+  options: ['/','/documentos', '/proyecto', '/equipo'],
 };
 
 const useInitialState = () => {

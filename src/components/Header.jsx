@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <nav className={styles.nav}>
-      <Link href="/">
+      <Link href="/" onClick={() => toggleMenu(false)}>
         <div className={styles.containerLogo}>
           <Image src={logoApist} alt="logo" className={styles['nav-logo']} />
         </div>
