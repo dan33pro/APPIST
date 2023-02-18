@@ -7,7 +7,7 @@ import iconFlecha from '@icons/flecha.png';
 import { useEffect, useContext } from 'react';
 
 const Card = (props) => {
-  const { state } = useContext(AppContext);
+  const { state, toggleMenu } = useContext(AppContext);
   const router = useRouter();
   const { cardInfo } = props;
   let cont = 1;
@@ -23,7 +23,8 @@ const Card = (props) => {
   }, [cont]);
 
   const handleRedirigir = () => {
-    router.push(state.options[cardInfo.id - 1]);
+    toggleMenu(false);
+    router.push(state.options[cardInfo.id]);
   };
 
   return (
