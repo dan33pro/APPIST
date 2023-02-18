@@ -6,6 +6,7 @@
     width: 100vw;
     height: calc(100vh + 0.58 * 100vh);
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 4fr);
     background: $--white;
@@ -25,8 +26,16 @@
     grid-column: 4 / 11;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+
     .CardsContainer article {
         grid-column: 2 / 12;
+    }
+}
+
+@media (max-width: 400px) {
+    .CardsContainer {
+        align-items: flex-end;
+        justify-items: center;
     }
 }

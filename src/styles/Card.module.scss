@@ -3,7 +3,6 @@
 .Card {
     padding: 30px 0;
     display: grid;
-    max-height: calc((100vh + 0.5 * 100vh) / 3 - 20px);
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr 5fr 1fr;
     padding-bottom: 20px;
@@ -65,8 +64,9 @@
     transform: translateX(40%);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .Card {
+        max-width: 360px;
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 1fr;
     }
@@ -80,5 +80,11 @@
         height: 100%;
         grid-column: 1;
         grid-row: 1;
+    }
+}
+
+@media (min-width: 1000px) {
+    .Card {
+        height: 100%;
     }
 }
