@@ -6,7 +6,8 @@ const Hero = () => {
   let titlesElement;
 
   useEffect(() => {
-    titlesElement = document.querySelector('.' + styles['container-titles']);
+    let classN = '.' + styles['container-titles'];
+    let titlesElement = document.querySelector(classN);
 
     window.addEventListener('scroll', () => {
       isView.changeState(titlesElement);
@@ -15,7 +16,7 @@ const Hero = () => {
         titlesElement.classList.add('isView');
       }
     });
-  }, []);
+  });
 
   let isView = useIsView(titlesElement);
 
