@@ -14,19 +14,34 @@ const useInitialState = () => {
     setState({
       ...state,
       isViewMenu: newState,
+      isViewDocAside: false,
+      selectDoc: undefined,
+      listDocs: [],
+    });
+  };
+
+  const changeListDocs = (listB) => {
+    setState({
+      ...state,
+      listDocs: listB,
     });
   };
 
   const changeSelectDoc = (newDoc) => {
+    console.log(newDoc);
     setState({
       ...state,
       selectDoc: newDoc,
+      listDocs: newDoc.listB,
     });
   };
 
-  const toggleDocAside = (newState) => {
+  const toggleDocAside = (newState, newDoc) => {
     setState({
       ...state,
+      selectDoc: newDoc,
+      listDocs: newDoc?.listB,
+      isViewMenu: false,
       isViewDocAside: newState,
     });
   };
@@ -36,6 +51,7 @@ const useInitialState = () => {
     toggleMenu,
     toggleDocAside,
     changeSelectDoc,
+    changeListDocs,
   };
 };
 

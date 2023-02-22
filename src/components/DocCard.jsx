@@ -8,21 +8,20 @@ import styles from '@styles/DocCard.module.scss';
 
 
 const DocCard = (props) => {
-  const {state, toggleDocAside, changeSelectDoc, toggleMenu} = useContext(AppContext);
+  const { state, toggleDocAside, changeSelectDoc  } = useContext(AppContext);
   const { infoDoc } = props;
 
   function handlerAside() {
-    const isViewDocAside = state.isViewDocAside;
-    if (!isViewDocAside) {
-      toggleDocAside(true);
+    if (!state.isViewDocAside) {
+      toggleDocAside(true, infoDoc);
+    } else {
+      changeSelectDoc(infoDoc);
     }
-    changeSelectDoc(infoDoc);
-    toggleMenu(false);
   }
 
   function getBoton(path) {
     if(path === 'none'){
-      return <span className={styles.link} role="checkbox" aria-checked="false" aria-labelledby="foo" tabindex="0" onClick={handlerAside} onKeyDown={handlerAside}>Archivos</span>;
+      return <span role={'button'} tabIndex={0} className={styles.link} onClick={handlerAside} onKeyDown={handlerAside}>Archivos</span>;
     } else {
       return <Link className={styles.link} href={path}>Archivo</Link>;
     }

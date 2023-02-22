@@ -1,1 +1,142 @@
 @import 'vars';
+
+.AsideDocsContainer {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    width: 20vw;
+    min-width: 400px;
+    height: calc(100vh - 80px);
+    padding: 44px 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: -2px 2px 4px $--gray;
+    background: $--white;
+    z-index: 2;
+}
+
+.cabecera {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cabecera span {
+    font-size: $--font-size-md-sm;
+}
+
+.cabecera:hover {
+    background: $--light-gray;
+}
+
+.cabecera:hover .icono-flecha {
+    transform: rotate(180deg) translateX(5px);
+}
+
+.cabecera .icono-flecha {
+    width: 20px;
+    height: auto;
+    transform: rotate(180deg);
+    transition: transform 200ms ease-in;
+    will-change: transform;
+}
+
+.doc-item-container {
+    padding-right: 10px;
+    max-height: calc((100vh - 80px) / 1.7 );
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 10px;
+}
+
+.doc-item-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.doc-item-container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.doc-item-container::-webkit-scrollbar-button:increment,.doc-item-container::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.doc-item-container::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.doc-item-container::-webkit-scrollbar-thumb {
+    background-color: $--gray;
+    border: 2px solid $--white;
+    border-radius: 20px;
+}
+
+.doc-item-container::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.container-bottom {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.panel-busqueda {
+    display: grid;
+    height: 43px;
+    grid-template-columns: 1fr;
+}
+
+.panel-busqueda .inputB {
+    padding: 4px 8px;
+    border: 1px solid $--dark-gray;
+    border-radius: 8px;
+    font-size: $--font-size-sm;
+}
+
+.panel-busqueda .iconLupa:hover {
+    transform: translateX(5px);
+}
+
+.principal-button {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    place-items: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid $--dark-gray;
+    background: $--gray;
+    color: $--white;
+    font-size: $--font-size-md-sm;
+    cursor: pointer;
+}
+
+.principal-button:hover .iconLupa {
+    transform: translateX(10px);
+}
+
+.principal-button span {
+    justify-self: flex-start;
+    padding: 0 10px;
+}
+
+ .iconLupa {
+    place-self: center;
+    width: 24px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    will-change: transform;
+}
+
+@media (max-width: 600px) {
+    .AsideDocsContainer {
+        width: 100vw;
+    }
+}

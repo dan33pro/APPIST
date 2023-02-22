@@ -7,15 +7,14 @@ import logoApist from '@logos/logo_appist.png';
 import menuIcon from '@icons/menu.png';
 
 import styles from '@styles/Header.module.scss';
+import AsideDocsContainer from '@containers/AsideDoscContainer';
 
 const Header = () => {
-  const { state, toggleMenu, toggleDocAside } = useContext(AppContext);
+  const { state, toggleMenu } = useContext(AppContext);
 
   const handleMenu = () => {
     let newState = !state.isViewMenu;
     toggleMenu(newState);
-    toggleDocAside(false);
-    
   };
 
   return (
@@ -29,6 +28,7 @@ const Header = () => {
         <span>MENU</span>
         <Image src={menuIcon} alt="menu boton" className={styles['menu-icon']} />
       </div>
+      { state.isViewDocAside && <AsideDocsContainer />}
     </nav>
   );
 };

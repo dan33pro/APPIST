@@ -40,6 +40,8 @@
     transition: transform 100ms ease-in;
     will-change: transform;
     cursor: pointer;
+    border-radius: 0 0 8px 8px;
+    z-index: 3;
 }
 
 .nav .menu-boton:hover {

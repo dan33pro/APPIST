@@ -7,7 +7,7 @@ const DocsContainer = (props) => {
 
   return (
     <main className={styles.DocsContainer}>
-      {docs.map(doc => <DocCard infoDoc={doc} />)}
+      {docs.map(doc => <DocCard infoDoc={doc} key={doc.id+'-'+doc.nombre} />)}
     </main>
   );
 };
