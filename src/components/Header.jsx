@@ -9,11 +9,13 @@ import menuIcon from '@icons/menu.png';
 import styles from '@styles/Header.module.scss';
 
 const Header = () => {
-  const { state, toggleMenu } = useContext(AppContext);
+  const { state, toggleMenu, toggleDocAside } = useContext(AppContext);
 
   const handleMenu = () => {
     let newState = !state.isViewMenu;
     toggleMenu(newState);
+    toggleDocAside(false);
+    
   };
 
   return (

@@ -5,25 +5,26 @@ import imgDoc from '@images/documentos.jpg';
 import imgProj from '@images/proyecto.jpg';
 import imgTeam from '@images/equipo.jpg';
 
+const cardOne = {
+  id: 1,
+  title: 'Documentos',
+  info: 'Documentación actual y enlaces a archivos',
+  img: imgDoc,
+};
+const cardTwo = {
+  id: 2,
+  title: 'Proyecto',
+  info: 'Información del proyecto y enlaces',
+  img: imgProj,
+};
+const cardThree = {
+  id: 3,
+  title: 'Equipo',
+  info: 'Integrantes y contacto',
+  img: imgTeam,
+};
+
 const CardsContainer = () => {
-  const cardOne = {
-    id: 1,
-    title: 'Documentos',
-    info: 'Documentación actual y enlaces a archivos',
-    img: imgDoc,
-  };
-  const cardTwo = {
-    id: 2,
-    title: 'Proyecto',
-    info: 'Información del proyecto y enlaces',
-    img: imgProj,
-  };
-  const cardThree = {
-    id: 3,
-    title: 'Equipo',
-    info: 'Integrantes y contacto',
-    img: imgTeam,
-  };
 
   return (
     <main className={styles.CardsContainer}>

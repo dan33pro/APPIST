@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 const initialState = {
   isViewMenu: false,
+  isViewDocAside: false,
+  selectDoc: undefined,
   options: ['/','/documentos', '/proyecto', '/equipo'],
 };
 
@@ -15,9 +17,25 @@ const useInitialState = () => {
     });
   };
 
+  const changeSelectDoc = (newDoc) => {
+    setState({
+      ...state,
+      selectDoc: newDoc,
+    });
+  };
+
+  const toggleDocAside = (newState) => {
+    setState({
+      ...state,
+      isViewDocAside: newState,
+    });
+  };
+
   return {
     state,
     toggleMenu,
+    toggleDocAside,
+    changeSelectDoc,
   };
 };
 
