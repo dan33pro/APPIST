@@ -5,9 +5,25 @@ import { useContext } from 'react';
 import Footer from '@components/Footer';
 import Menu from '@components/Menu';
 import DocsContainer from '@containers/DocsContainer';
+import ContainerInfo from '@containers/ContainerInfo';
+
+import useGetDocs from '@hooks/useGetDocs';
+
+const infoOne = {
+  title:'Documentos Principales',
+  text: 'Acta de iniciación, documento maestro, etc.'
+};
+
+const infoTwo = {
+  title:'Bitácoras',
+  text: 'Todas las bitácoras de cada integrante.'
+};
 
 export default function Home() {
   const { state } = useContext(AppContext);
+  const allDocs = useGetDocs();
+  const docs = allDocs.PDocs;
+  const bitacoras = allDocs.bitac;
 
   return (
     <>
@@ -17,7 +33,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <DocsContainer />
+      <ContainerInfo info={infoOne} />
+      <DocsContainer docs={docs} />
+      <ContainerInfo info={infoTwo} />
+      <DocsContainer docs={bitacoras} />
       <Footer />
       {state.isViewMenu && <Menu />}
     </>

@@ -2,11 +2,12 @@ import TargetInfo from '@components/TargetInfo';
 import styles from '@styles/ContainerInfo.module.scss';
 import BigGrilla from './BigGrilla';
 
-const ContainerInfo = () => {
+const ContainerInfo = (props) => {
+  const { info } = props;
   return (
     <div className={styles.ContainerInfo}>
       <BigGrilla />
-      <TargetInfo />
+      <TargetInfo info={info} />
     </div>
   );
 };

@@ -7,7 +7,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 6fr 1fr 1fr 2fr;
     place-items: center;
-    background: $--white;
+    background: $--light-gray;
     border-radius: 16px;
 }
 .DocCard .container-img {
@@ -37,6 +37,7 @@
     background: $--gray;
     text-decoration: none;
     font-size: $--font-size-md-sm;
+    cursor: pointer;
 }
 
 

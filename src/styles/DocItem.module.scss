@@ -1,0 +1,47 @@
+@import 'vars';
+
+.DocItem {
+    min-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 8px;
+    background: $--light-gray;
+    overflow: hidden;
+}
+
+.DocItem .img {
+    width: 100%;
+    height: auto;
+}
+
+.DocItem .info-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.DocItem .info-item span {
+    color: $--dark-gray;
+    font-size: $--font-size-sm;
+}
+
+.DocItem .info-item span:nth-child(2) {
+    color: $--gray;
+}
+
+.DocItem .redirect {
+    width: 90%;
+    height: 60%;
+    align-self: center;
+    padding: 5px 10px;
+    background: $--gray;
+    border-radius: 8px;
+    color: $--white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}

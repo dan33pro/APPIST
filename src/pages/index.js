@@ -9,6 +9,11 @@ import ListIcon from '@containers/ListIcon';
 import Footer from '@components/Footer';
 import Menu from '@components/Menu';
 
+const info = {
+  title: 'Qué queremos',
+  text: 'Desarrollar e implementar una plataforma para el reporte de escenarios de urbanismo táctico, priorización de lugares con mayor índice de accidentalidad y un consolidado en donde se ofrecen distintas soluciones de señalización en espacios públicos.',
+};
+
 export default function Home() {
   const { state } = useContext(AppContext);
 
@@ -21,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <ContainerInfo />
+      <ContainerInfo info={info} />
       <CardsContainer />
       <ListIcon />
       <Footer />
