@@ -316,7 +316,7 @@ const docs = [
   },
   {
     id: 9,
-    nombre: 'Plan de administración de configuarción',
+    nombre: 'Plan administración de configuarción',
     description: 'Objetivo, administración de la configuración de software, etc.',
     img: imgPAConfig,
     path: 'https://docs.google.com/document/d/16LlmpstYGVRMBeWP2dF_PXxyuNYGCXOx/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
