@@ -1,6 +1,8 @@
 import { useState } from 'react';
 
 import imgBitacora from '@images/bitacora.jpg';
+import imgResumenActividades from '@images/imgResumenActividades.jpg';
+import imgBookJobs from '@images/imgBookJobs.jpg';
 
 import imgActaInit from '@images/actaInit.jpg';
 import imgScript from '@images/script.jpg';
@@ -207,6 +209,47 @@ const listsCheq = [
     img: imgLCheck,
     path: 'https://docs.google.com/document/d/1GM0n9Db367S_FDpeRhMlJznX166zJLn0/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 2,
+    nombre: 'Lista de chequeo',
+    description: 'Fase 2',
+    img: imgLCheck,
+    path: 'https://docs.google.com/document/d/18Y7hmzk9QOs_Wi6z7fADE2yaOlqX1tYp/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const listLogDefect = [
+  {
+    id: 1,
+    nombre: 'Log de defectos',
+    description: 'Fase 1',
+    img: imgLogBugs,
+    path: 'https://docs.google.com/document/d/1qp8wBitKZ5mcHW_CMLix8KDa2youndt_/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Log de defectos',
+    description: 'Fase 2',
+    img: imgLogBugs,
+    path: 'https://docs.google.com/document/d/1XK1OKHkWl1LuICn2TQhEBjGxfZoXUUQ3/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const docsMaestroList = [
+  {
+    id: 1,
+    nombre: 'Documento maestro',
+    description: 'Versión 1',
+    img: imgDocMaster,
+    path: 'https://docs.google.com/document/d/1tlNIGe01F7oX9B1qrS_JjN9qAlDI_BfS/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Documento maestro',
+    description: 'Versión 2',
+    img: imgDocMaster,
+    path: 'https://docs.google.com/document/d/1p9bb48SEvKk1RAdBAzkoRgOYKycH0WqS/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 // General docs
@@ -229,17 +272,19 @@ const docs = [
   },
   {
     id: 3,
-    nombre: 'Log de defectos',
+    nombre: 'Logs de defectos',
     description: 'Log de registro de defectos presentados',
     img: imgLogBugs,
-    path: 'https://docs.google.com/document/d/1qp8wBitKZ5mcHW_CMLix8KDa2youndt_/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: listLogDefect,
   },
   {
     id: 4,
-    nombre: 'Documento maestro',
+    nombre: 'Documentos maestro',
     description: 'Documento maestro, versión, URL, fecha de modificación y creación',
     img: imgDocMaster,
-    path: 'https://docs.google.com/document/d/1tlNIGe01F7oX9B1qrS_JjN9qAlDI_BfS/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: docsMaestroList,
   },
   {
     id: 5,
@@ -359,9 +404,101 @@ const bitacoras = [
   },
 ];
 
+const resumenesActividades = [
+  {
+    id: 1,
+    nombre: 'Resumen de actividades - LD',
+    description: 'Registro de actividades semanales lider de desarrollo',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1Mf-HYYkweJ3hsWcDAtTegUkffqk8jSPw/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Resumen de actividades - LE',
+    description: 'Registro de actividades semanales lider de equipo',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1W__alnxdRI14PaO22LjQ_UEHYOgHe8Jj/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Resumen de actividades - LC',
+    description: 'Registro de actividades semanales lider de calidad',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1d3xx7UoxQf0EDgrc4Zm3JnJbrteJQgl3/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Resumen de actividades - LA',
+    description: 'Registro de actividades semanales lider de arquitectura',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1ETGfiraC17M1ZSfondTlhsN1VeFM_KZL/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 5,
+    nombre: 'Resumen de actividades - LS',
+    description: 'Registro de actividades semanales lider de soporte',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/15GY0N2vYgrnIVc_rJ3QfqH0OCyF8GgsR/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Resumen de actividades - LP',
+    description: 'Registro de actividades semanales lider de planeación',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/18l6l0nJHmMpA2YqJwvvYbxI6jJMkWMtZ/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const cuadernosDeTrabajos = [
+  {
+    id: 1,
+    nombre: 'Cuaderno de trabajos - LD',
+    description: 'Cuaderno de trabajos del lider de desarrollo',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1OuIi8qCMVYdgKqoUFgmZ5e8SUF1w68F9/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Cuaderno de trabajos - LE',
+    description: 'Cuaderno de trabajos del lider de equipo',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1WXDVau7hypUgDOUWnFHxccp0Joa6LbGa/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Cuaderno de trabajos - LC',
+    description: 'Cuaderno de trabajos del lider de calidad',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1__SBsfQiVdzNcx_nImEpBKljy4wc2rZ5/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Cuaderno de trabajos - LA',
+    description: 'Cuaderno de trabajos del lider de arquitectura',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1pqksoGviJCrIJvA3352LyfCTXKDVzfO4/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 5,
+    nombre: 'Cuaderno de trabajos - LS',
+    description: 'Cuaderno de trabajos del lider de soporte',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1Xo8GNak6B2pDDv6LnLP4hZphuhH5vTZG/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Cuaderno de trabajos - LP',
+    description: 'Cuaderno de trabajos del lider de planeación',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1CcoYcZdosOkGoiLF-laHxR9Zxwe0H-Em/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
 const useGetDocs = () => {
   const [PDocs, setPDocs] = useState(docs);
   const [bitac, setBitac] = useState(bitacoras);
+  const [RActividades, setRActividades] = useState(resumenesActividades);
+  const [booksJobs, setBooksJobs] = useState(cuadernosDeTrabajos);
 
   function reStartPD() {
     setPDocs(docs);
@@ -371,11 +508,23 @@ const useGetDocs = () => {
     setBitac(bitacoras);
   }
 
+  function reStartRA() {
+    setRActividades(resumenesActividades);
+  }
+
+  function reStartBJ() {
+    setBooksJobs(cuadernosDeTrabajos);
+  }
+
   return {
     PDocs,
     bitac,
+    RActividades,
+    booksJobs,
     reStartPD,
     reStartB,
+    reStartRA,
+    reStartBJ,
   };
 };
 
