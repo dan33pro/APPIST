@@ -1,0 +1,32 @@
+{
+    "theme_color": "#8f8080",
+    "background_color": "#3a3434",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Appist Team",
+    "short_name": "Appist-T",
+    "description": "Appist Team - Web documentaci\u00f3n y progreso",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
