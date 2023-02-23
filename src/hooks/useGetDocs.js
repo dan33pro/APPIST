@@ -80,6 +80,13 @@ const btLC = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/19z16aYIrkeVB6W_6GJuB_hktTexo2Ypm/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 3,
+    nombre: 'Bitácora de tiempos - LC',
+    description: 'Semana 3',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/19z16aYIrkeVB6W_6GJuB_hktTexo2Ypm/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLA = [
@@ -97,6 +104,13 @@ const btLA = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1h1EvfyVgmJU3w6Di50zogYSyzxZ1Nwcj/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 3,
+    nombre: 'Bitácora de tiempos - LA',
+    description: 'Semana 3',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1gpRXsC3hX1yQEhgbhcig8CujxH6rdSPD/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLS = [
@@ -106,6 +120,13 @@ const btLS = [
     description: 'Semana 1',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/17QlPhaiiPuB0yHltoGKEcQ-mrf9EpmWc/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Bitácora de tiempos - LS',
+    description: 'Semana 2',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1yNFXhD_UHkI8JVmfdR4t0kbvf_y6CQcc/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
   {
     id: 3,
@@ -185,13 +206,6 @@ const listsCheq = [
     description: 'Fase 1',
     img: imgLCheck,
     path: 'https://docs.google.com/document/d/1GM0n9Db367S_FDpeRhMlJznX166zJLn0/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
-  },
-  {
-    id: 2,
-    nombre: 'Lista de chequeo',
-    description: 'Fase 2',
-    img: imgLCheck,
-    path: '/documentos',
   },
 ];
 
