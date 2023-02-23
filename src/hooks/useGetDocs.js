@@ -199,6 +199,13 @@ const informesW = [
     img: imgISemanal,
     path: 'https://docs.google.com/document/d/1M9LDpbFKBLkNK5qJbcitYDGA7OxmBATn8TDkehfuSBA/edit?usp=share_link',
   },
+  {
+    id: 2,
+    nombre: 'Informe semanal',
+    description: 'Semana 2',
+    img: imgISemanal,
+    path: 'https://docs.google.com/document/d/1V4HUPfUuTLM7CObRs7cDDnHcXnZvbAL3JVmWLnb5kTI/edit?usp=share_link',
+  },
 ];
 
 const listsCheq = [
@@ -438,7 +445,7 @@ const resumenesActividades = [
     nombre: 'Resumen de actividades - LS',
     description: 'Registro de actividades semanales lider de soporte',
     img: imgResumenActividades,
-    path: 'https://docs.google.com/document/d/15GY0N2vYgrnIVc_rJ3QfqH0OCyF8GgsR/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'https://docs.google.com/document/d/1bFofj4cxV_xTShmRlwAQEow9fAv9KlsM/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
   {
     id: 6,
