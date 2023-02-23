@@ -19,11 +19,23 @@ const infoTwo = {
   text: 'Todas las bitácoras de cada integrante.'
 };
 
+const infoThree = {
+  title:'Resumenes de actividades',
+  text: 'Todas los resumenes de actividades de cada integrante.'
+};
+
+const infoFour = {
+  title:'Cuadernos de trabajo',
+  text: 'Todos los cuadernos de trabajo de cada integrante.'
+};
+
 export default function Home() {
   const { state } = useContext(AppContext);
   const allDocs = useGetDocs();
   const docs = allDocs.PDocs;
   const bitacoras = allDocs.bitac;
+  const RActividades = allDocs.RActividades;
+  const booksJobs = allDocs.booksJobs;
 
   return (
     <>
@@ -37,6 +49,10 @@ export default function Home() {
       <DocsContainer docs={docs} />
       <ContainerInfo info={infoTwo} />
       <DocsContainer docs={bitacoras} />
+      <ContainerInfo info={infoThree} />
+      <DocsContainer docs={RActividades} />
+      <ContainerInfo info={infoFour} />
+      <DocsContainer docs={booksJobs} />
       <Footer />
       {state.isViewMenu && <Menu />}
     </>
