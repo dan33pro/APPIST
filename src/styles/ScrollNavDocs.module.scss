@@ -1,0 +1,65 @@
+@import 'vars';
+
+.ScrollNavDocs {
+    width: 40vw;
+    min-width: 600px;
+    min-height: 80px;
+    padding: 10px;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    position: fixed;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    background: $--white;
+    box-shadow: 2px 2px 4px $--black;
+    border-radius: 8px;
+    z-index: 5;
+}
+
+.ScrollNavDocs .optionItem {
+    padding: 8px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 4px;
+    place-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.ScrollNavDocs .optionItem:hover .iconOption{
+    transform: translateY(-5px);
+}
+
+.ScrollNavDocs .optionItem .iconOption{
+    padding: 4px;
+    width: 42px;
+    height: auto;
+    transition: transform 200ms ease-in;
+    will-change: transform;
+}
+
+.ScrollNavDocs .optionItem span {
+    display: block;
+    color: $--dark-gray;
+    font-size: $--font-size-sm;
+}
+
+@media (max-width: 650px) {
+    .ScrollNavDocs {
+        min-width: 100vw;
+        width: 100vw;
+        border-radius: 0;
+        bottom: 0;
+    }
+
+    .ScrollNavDocs .optionItem span {
+        display: none;
+        color: $--dark-gray;
+        font-size: $--font-size-ultra-sm;
+    }
+}

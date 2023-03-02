@@ -8,23 +8,28 @@ import DocsContainer from '@containers/DocsContainer';
 import ContainerInfo from '@containers/ContainerInfo';
 
 import useGetDocs from '@hooks/useGetDocs';
+import ScrollNavDocs from '@components/ScrollNavDocs';
 
 const infoOne = {
+  id: 'Documentos-Principales',
   title:'Documentos Principales',
   text: 'Acta de iniciación, documento maestro, etc.'
 };
 
 const infoTwo = {
+  id: 'Bitacoras',
   title:'Bitácoras',
   text: 'Todas las bitácoras de cada integrante.'
 };
 
 const infoThree = {
+  id: 'Resumenes-De-actividades',
   title:'Resumenes de actividades',
   text: 'Todas los resumenes de actividades de cada integrante.'
 };
 
 const infoFour = {
+  id: 'Cuadernos-De-trabajo',
   title:'Cuadernos de trabajo',
   text: 'Todos los cuadernos de trabajo de cada integrante.'
 };
@@ -45,6 +50,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <ScrollNavDocs />
       <ContainerInfo info={infoOne} />
       <DocsContainer docs={docs} />
       <ContainerInfo info={infoTwo} />
