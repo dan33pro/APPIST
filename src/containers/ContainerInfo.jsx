@@ -5,7 +5,7 @@ import BigGrilla from './BigGrilla';
 const ContainerInfo = (props) => {
   const { info } = props;
   return (
-    <div className={styles.ContainerInfo}>
+    <div className={styles.ContainerInfo} id={info?.id}>
       <BigGrilla />
       <TargetInfo info={info} />
     </div>
