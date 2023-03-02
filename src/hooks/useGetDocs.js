@@ -18,6 +18,12 @@ import imgRANoPlan from '@images/imgRANPlan.jpg';
 import imgISemanal from '@images/imgISemanal.jpg';
 import imgLCheck from '@images/imgLCheck.jpg';
 
+import imgCasoUso from '@images/imgCasoUso.jpg';
+import imgECalidad from '@images/imgECalidad.jpg';
+import imgMDominio from '@images/imgMDominio.jpg';
+import imgARequerimientos from '@images/imgARequerimientos.jpg';
+import imgListCheckReq from '@images/imgListCheckReq.jpg';
+
 // Bitacoras por rol
 const btLD = [
   {
@@ -40,6 +46,13 @@ const btLD = [
     description: 'Semana 3',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1zSsCNP_GVsrU-do1ORSQilV0bIdDlAeU/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Bitácora de tiempos - LD',
+    description: 'Semana 4',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/18t7moiuPjRkHV7CX0QALS77ejN60cL6g/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -65,6 +78,13 @@ const btLE = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1YPT8n5yGstkPVeW0D4r5fBTfQo2kCpQTox3O_TolcbA/edit?usp=share_link',
   },
+  {
+    id: 4,
+    nombre: 'Bitácora de tiempos - LE',
+    description: 'Semana 4',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1jxK8P7NVkoXR9NQo-v6u0ejq_B5VUx29Ve0JJJs1skc/edit?usp=share_link',
+  },
 ];
 
 const btLC = [
@@ -88,6 +108,13 @@ const btLC = [
     description: 'Semana 3',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/19z16aYIrkeVB6W_6GJuB_hktTexo2Ypm/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Bitácora de tiempos - LC',
+    description: 'Semana 4',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/14YSegjcVUoMzdcEzOlElSrJEmPOTJhtG/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -113,6 +140,13 @@ const btLA = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1gpRXsC3hX1yQEhgbhcig8CujxH6rdSPD/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 4,
+    nombre: 'Bitácora de tiempos - LA',
+    description: 'Semana 4',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1UoTc1cAUzNLJYEbSmR3hWDhi2b-EaBGS/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLS = [
@@ -137,6 +171,13 @@ const btLS = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1ARLs6YylWb6hpH7Yd6GOzA8IECuN8eIw/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 4,
+    nombre: 'Bitácora de tiempos - LS',
+    description: 'Semana 4',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1x9GPRsWSHrt9OQPQ0zqeciuKoYiS36nG/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLP = [
@@ -153,6 +194,109 @@ const btLP = [
     description: 'Semana 3',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1S19vdggGPiejQXiyIJpZFzYxVAekrw5Z/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Bitácora de tiempos - LP',
+    description: 'Semana 4',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1nucrstN6Dc5Zqn95Mvk780CKZOVIeo1J/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+// Resumen de actividades por rol
+const RActividadesLD = [
+  {
+    id: 1,
+    nombre: 'Resumen de actividades - LD',
+    description: 'Semana 3',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1Mf-HYYkweJ3hsWcDAtTegUkffqk8jSPw/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Resumen de actividades - LD',
+    description: 'Semana 4',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1ONI2p4MdHylzuhQ4TTAMT7Z4XeZzyT8r/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const RActividadesLE = [
+  {
+    id: 1,
+    nombre: 'Resumen de actividades - LE',
+    description: 'Semana 3',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1W__alnxdRI14PaO22LjQ_UEHYOgHe8Jj/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const RActividadesLC = [
+  {
+    id: 1,
+    nombre: 'Resumen de actividades - LC',
+    description: 'Semana 3',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1d3xx7UoxQf0EDgrc4Zm3JnJbrteJQgl3/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Resumen de actividades - LC',
+    description: 'Semana 4',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1aq90KfqGMvSdS5f3-cGhxqjhZgXcVyYe/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const RActividadesLA = [
+  {
+    id: 1,
+    nombre: 'Resumen de actividades - LA',
+    description: 'Semana 3',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1ETGfiraC17M1ZSfondTlhsN1VeFM_KZL/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Resumen de actividades - LA',
+    description: 'Semana 4',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1fwXCz9MuwtRWS_V4A-ERGSF2eSTrsaLw/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const RActividadesLS = [
+  {
+    id: 1,
+    nombre: 'Resumen de actividades - LS',
+    description: 'Semana 3',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/15GY0N2vYgrnIVc_rJ3QfqH0OCyF8GgsR/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Resumen de actividades - LS',
+    description: 'Semana 4',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1bFofj4cxV_xTShmRlwAQEow9fAv9KlsM/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const RActividadesLP = [
+  {
+    id: 1,
+    nombre: 'Resumen de actividades - LP',
+    description: 'Semana 3',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/18l6l0nJHmMpA2YqJwvvYbxI6jJMkWMtZ/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Resumen de actividades - LP',
+    description: 'Semana 4',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/18yyHSEqkHV-Lcc3MPqv-JXA7OoeMNl6A/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -172,6 +316,13 @@ const scriptL = [
     img: imgScript,
     path: 'https://docs.google.com/document/d/1wQ4EMt4hx1NH8Zrhhgi2o8CkCUXJdVKo/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 3,
+    nombre: 'Script',
+    description: 'Versión 3.',
+    img: imgScript,
+    path: 'https://docs.google.com/document/d/1wBc93yS6qKq2Xci3wAE5QozaM5DhyYIs/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const actaRL = [
@@ -188,6 +339,30 @@ const actaRL = [
     description: 'Fase 2',
     img: imgActaMeet,
     path: 'https://docs.google.com/document/d/1WKFuoXTPYT1SoSsRWv48geAYaD6UCsd_/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Acta de reunión',
+    description: 'Fase 3',
+    img: imgActaMeet,
+    path: 'https://docs.google.com/document/d/180Y0ENccz78yg5c3A-goRL-itYHVxWF1/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const actividadesNPL = [
+  {
+    id: 1,
+    nombre: 'Registro de actividades no planeadas',
+    description: 'Fase 3.',
+    img: imgRANoPlan,
+    path: 'https://docs.google.com/document/d/1VlCsBJAQEQiIADwmweUnyU_JxoS1oNrH/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Registro de actividades no planeadas',
+    description: 'Fase 4.',
+    img: imgRANoPlan,
+    path: 'https://docs.google.com/document/d/1diTr7d1hEpRlXq5Srv2Z735TW_XVOzhc/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -206,22 +381,36 @@ const informesW = [
     img: imgISemanal,
     path: 'https://docs.google.com/document/d/1V4HUPfUuTLM7CObRs7cDDnHcXnZvbAL3JVmWLnb5kTI/edit?usp=share_link',
   },
+  {
+    id: 3,
+    nombre: 'Informe semanal',
+    description: 'Semana 3',
+    img: imgISemanal,
+    path: 'https://docs.google.com/document/d/1lbPhXEahhHh4BFEYFwXeTF5vcGX8KTLqk9CSpvm996c/edit?usp=share_link',
+  },
 ];
 
 const listsCheq = [
   {
     id: 1,
     nombre: 'Lista de chequeo',
-    description: 'Fase 1',
+    description: 'Fase 1 y 2',
     img: imgLCheck,
     path: 'https://docs.google.com/document/d/1GM0n9Db367S_FDpeRhMlJznX166zJLn0/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
   {
     id: 2,
     nombre: 'Lista de chequeo',
-    description: 'Fase 2',
+    description: 'Fase 3',
     img: imgLCheck,
     path: 'https://docs.google.com/document/d/18Y7hmzk9QOs_Wi6z7fADE2yaOlqX1tYp/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Lista de chequeo',
+    description: 'Fase 4',
+    img: imgLCheck,
+    path: 'https://docs.google.com/document/d/1GgldfCj07zTOIRB0vPfjQB22bNfd6v3F/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -240,6 +429,30 @@ const listLogDefect = [
     img: imgLogBugs,
     path: 'https://docs.google.com/document/d/1XK1OKHkWl1LuICn2TQhEBjGxfZoXUUQ3/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 3,
+    nombre: 'Log de defectos',
+    description: 'Fase 3',
+    img: imgLogBugs,
+    path: 'https://docs.google.com/document/d/1eWW1KOkdJ4Bh1S0qSqWuDTZzIK7NhCZF/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const listRSemanales = [
+  {
+    id: 1,
+    nombre: 'Listado de reuniones semanales',
+    description: 'Semana 2',
+    img: imgLRSemana,
+    path: 'https://docs.google.com/document/d/1pfm5j6S_vS9YjJjLnNhIpEM4t9Yhvl3I/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Listado de reuniones semanales',
+    description: 'Semana 3',
+    img: imgLRSemana,
+    path: 'https://docs.google.com/document/d/1waQ_IpFUk0drTbc1SkqC4C2R3f7kY5hN/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const docsMaestroList = [
@@ -257,10 +470,152 @@ const docsMaestroList = [
     img: imgDocMaster,
     path: 'https://docs.google.com/document/d/1p9bb48SEvKk1RAdBAzkoRgOYKycH0WqS/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 3,
+    nombre: 'Documento maestro',
+    description: 'Versión 3',
+    img: imgDocMaster,
+    path: 'https://docs.google.com/document/d/1Txkp50YY-XiA9TnB2Br8t80XVk-CzbLU/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+// Docs por fase
+const escenariosCL = [
+  {
+    id: 1,
+    nombre: 'Escenarios de Calidad',
+    description: 'Escenario Desempeño',
+    img: imgECalidad,
+    path: 'https://docs.google.com/document/d/1y_xGib0Ea3riwEavrEivNBrhbE2J_jEH/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Escenarios de Calidad',
+    description: 'Escenario Disponibilidad',
+    img: imgECalidad,
+    path: 'https://docs.google.com/document/d/1TjsO3HzE5hDnlrq8-I4fgiZKh8Re0YvI/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Escenarios de Calidad',
+    description: 'Escenario Escalabilidad',
+    img: imgECalidad,
+    path: 'https://docs.google.com/document/d/1mL1r8Vazi71_UsmqadIEEw-HZJFgcPG6/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Escenarios de Calidad',
+    description: 'Escenario Modificabilidad',
+    img: imgECalidad,
+    path: 'https://docs.google.com/document/d/1BH_UEVMOg3XzcRjZUG5mf1Ld8EYVl_42/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 5,
+    nombre: 'Escenarios de Calidad',
+    description: 'Escenario Usabilidad',
+    img: imgECalidad,
+    path: 'https://docs.google.com/document/d/1mxwmQ43zNk9GJJRzMLkOfddg2HncAgQW/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+
+const docsLRequerimientos = [
+  {
+    id: 1,
+    nombre: 'Listas de chequeo y requerimientos',
+    description: 'Lista de Chequeo de impacto',
+    img: imgListCheckReq,
+    path: 'https://docs.google.com/document/d/1JBDMTQlnLHpixGIFr905KvYHNeDsriHaEQn1lZlspSI/edit?usp=share_link',
+  },
+  {
+    id: 2,
+    nombre: 'Listas de chequeo y requerimientos',
+    description: 'Lista de Chequeo de requerimientos',
+    img: imgListCheckReq,
+    path: 'https://docs.google.com/document/d/1Bd5RGap4WhDaM_dyoL1cFdUAk40Cq_e_BojpJku-0BM/edit?usp=share_link',
+  },
+  {
+    id: 3,
+    nombre: 'Listas de chequeo y requerimientos',
+    description: 'Lista de Requerimientos Funcionales',
+    img: imgListCheckReq,
+    path: 'https://docs.google.com/document/d/1-F83o80aX10Bxv10cwnIL3BxFoiY9VBeb1JTEtcufdE/edit?usp=share_link',
+  },
+];
+
+const docsFase1 = [
+  {
+    id: 1,
+    nombre: 'Acta de iniciación',
+    description: 'Conformación del equipo, objetivos, definición general del proyecto.',
+    img: imgActaInit,
+    path: 'https://docs.google.com/document/d/1olOzDqBN70rY9PJxmrWA9P6k3CbT10ho/edit?usp=sharing&ouid=114130291230236195537&rtpof=true&sd=true',
+  },
+];
+const docsFase2 = [
+  {
+    id: 1,
+    nombre: 'Documento de estrategía',
+    description: 'Objetivo, estrategía, criterios de estrategía, etc.',
+    img: imgDocEstrat,
+    path: 'https://docs.google.com/document/d/122sPOVfQ4PPq5hz_5mUkL8dq0yjnerl9/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Plan de manejo de riesgos',
+    description: 'Introducción, riesgos, criterios de valoración, etc.',
+    img: imgPMRiesgos,
+    path: 'https://docs.google.com/document/d/1-bt_JF9xrTdHnij0UOzmBjYjDyLwmz-m/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Plan administración de configuarción',
+    description: 'Objetivo, administración de la configuración de software, etc.',
+    img: imgPAConfig,
+    path: 'https://docs.google.com/document/d/16LlmpstYGVRMBeWP2dF_PXxyuNYGCXOx/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+const docsFase3 = [
+  {
+    id: 1,
+    nombre: 'Plan detalle casos de uso',
+    description: 'Especificaciones de casos de uso, etc.',
+    img: imgCasoUso,
+    path: 'https://docs.google.com/document/d/1uJ_O8ljsHuDl14dwLneguvwazuMD-M96/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Escenarios de Calidad',
+    description: 'Especificaciones de escenarios de calidad, etc.',
+    img: imgECalidad,
+    path: 'none',
+    listB: escenariosCL,
+  },
+  {
+    id: 3,
+    nombre: 'Modelo de dominio',
+    description: 'Plantilla de modelo de mominio, etc.',
+    img: imgMDominio,
+    path: 'https://docs.google.com/document/d/1-s1iEjvDy65c1XCxY7OLw5lW3pkfFvePbU7SOQndI7U/edit?usp=share_link',
+  },
+  {
+    id: 4,
+    nombre: 'Administración de requerimientos',
+    description: 'Objetivo, alcance, etc.',
+    img: imgARequerimientos,
+    path: 'https://docs.google.com/document/d/12FNFOydalrAtLOEP9jffZACywiq8hmle8hXzVXtLh9I/edit?usp=share_link',
+  },
+  {
+    id: 5,
+    nombre: 'Listas de chequeo y requerimientos',
+    description: 'Chequeo de impacto y de requerimientos, etc.',
+    img: imgListCheckReq,
+    path: 'none',
+    listB: docsLRequerimientos,
+  },
 ];
 
 // General docs
-const docs = [
+const docsW = [
   {
     id: 1,
     nombre: 'Scripts',
@@ -300,50 +655,25 @@ const docs = [
     img: imgControlAsig,
     path: 'https://docs.google.com/spreadsheets/d/1AqpSFXZVNXXd1CPJgbjEHIF5isPrrAKy/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+    // Aqui
   {
     id: 6,
-    nombre: 'Acta de iniciación',
-    description: 'Conformación del equipo, objetivos, definición general del proyecto.',
-    img: imgActaInit,
-    path: 'https://docs.google.com/document/d/1olOzDqBN70rY9PJxmrWA9P6k3CbT10ho/edit?usp=sharing&ouid=114130291230236195537&rtpof=true&sd=true',
-  },
-  {
-    id: 7,
-    nombre: 'Documento de estrategía',
-    description: 'Objetivo, estrategía, criterios de estrategía, etc.',
-    img: imgDocEstrat,
-    path: 'https://docs.google.com/document/d/122sPOVfQ4PPq5hz_5mUkL8dq0yjnerl9/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
-  },
-  {
-    id: 8,
-    nombre: 'Plan de manejo de riesgos',
-    description: 'Introducción, riesgos, criterios de valoración, etc.',
-    img: imgPMRiesgos,
-    path: 'https://docs.google.com/document/d/1-bt_JF9xrTdHnij0UOzmBjYjDyLwmz-m/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
-  },
-  {
-    id: 9,
-    nombre: 'Plan administración de configuarción',
-    description: 'Objetivo, administración de la configuración de software, etc.',
-    img: imgPAConfig,
-    path: 'https://docs.google.com/document/d/16LlmpstYGVRMBeWP2dF_PXxyuNYGCXOx/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
-  },
-  {
-    id: 10,
     nombre: 'Listado de reuniones semanales',
     description: 'Fecha, Inicio, Fin, Duración y descripción.',
     img: imgLRSemana,
-    path: 'https://docs.google.com/document/d/1pfm5j6S_vS9YjJjLnNhIpEM4t9Yhvl3I/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: listRSemanales,
   },
   {
-    id: 11,
+    id: 7,
     nombre: 'Registro de actividades no planeadas',
     description: 'Fecha, Hora, Fin, Actividad y Tipo.',
     img: imgRANoPlan,
-    path: 'https://docs.google.com/document/d/1VlCsBJAQEQiIADwmweUnyU_JxoS1oNrH/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: actividadesNPL,
   },
   {
-    id: 12,
+    id: 8,
     nombre: 'Informes semanales',
     description: 'Descripción del rendimieto semanal.',
     img: imgISemanal,
@@ -351,7 +681,7 @@ const docs = [
     listB: informesW,
   },
   {
-    id: 13,
+    id: 9,
     nombre: 'Listas de chequeo',
     description: 'Documento, Descripción, Fecha de entrega, etc.',
     img: imgLCheck,
@@ -417,42 +747,48 @@ const resumenesActividades = [
     nombre: 'Resumen de actividades - LD',
     description: 'Registro de actividades semanales lider de desarrollo',
     img: imgResumenActividades,
-    path: 'https://docs.google.com/document/d/1Mf-HYYkweJ3hsWcDAtTegUkffqk8jSPw/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: RActividadesLD,
   },
   {
     id: 2,
     nombre: 'Resumen de actividades - LE',
     description: 'Registro de actividades semanales lider de equipo',
     img: imgResumenActividades,
-    path: 'https://docs.google.com/document/d/1W__alnxdRI14PaO22LjQ_UEHYOgHe8Jj/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: RActividadesLE,
   },
   {
     id: 3,
     nombre: 'Resumen de actividades - LC',
     description: 'Registro de actividades semanales lider de calidad',
     img: imgResumenActividades,
-    path: 'https://docs.google.com/document/d/1d3xx7UoxQf0EDgrc4Zm3JnJbrteJQgl3/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: RActividadesLC,
   },
   {
     id: 4,
     nombre: 'Resumen de actividades - LA',
     description: 'Registro de actividades semanales lider de arquitectura',
     img: imgResumenActividades,
-    path: 'https://docs.google.com/document/d/1ETGfiraC17M1ZSfondTlhsN1VeFM_KZL/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: RActividadesLA,
   },
   {
     id: 5,
     nombre: 'Resumen de actividades - LS',
     description: 'Registro de actividades semanales lider de soporte',
     img: imgResumenActividades,
-    path: 'https://docs.google.com/document/d/1bFofj4cxV_xTShmRlwAQEow9fAv9KlsM/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: RActividadesLS,
   },
   {
     id: 6,
     nombre: 'Resumen de actividades - LP',
     description: 'Registro de actividades semanales lider de planeación',
     img: imgResumenActividades,
-    path: 'https://docs.google.com/document/d/18l6l0nJHmMpA2YqJwvvYbxI6jJMkWMtZ/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: RActividadesLP,
   },
 ];
 
@@ -502,13 +838,28 @@ const cuadernosDeTrabajos = [
 ];
 
 const useGetDocs = () => {
-  const [PDocs, setPDocs] = useState(docs);
+  const [DocsF1, setDocsF1] = useState(docsFase1);
+  const [DocsF2, setDocsF2] = useState(docsFase2);
+  const [DocsF3, setDocsF3] = useState(docsFase3);
+  const [WDocs, setWDocs] = useState(docsW);
   const [bitac, setBitac] = useState(bitacoras);
   const [RActividades, setRActividades] = useState(resumenesActividades);
   const [booksJobs, setBooksJobs] = useState(cuadernosDeTrabajos);
 
-  function reStartPD() {
-    setPDocs(docs);
+  function reStartDocsF1() {
+    setDocsF1(docsFase1);
+  }
+
+  function reStartDocsF2() {
+    setDocsF2(docsFase2);
+  }
+
+  function reStartDocsF3() {
+    setDocsF3(docsFase3);
+  }
+
+  function reStartWD() {
+    setWDocs(docsW);
   }
 
   function reStartB() {
@@ -524,11 +875,17 @@ const useGetDocs = () => {
   }
 
   return {
-    PDocs,
+    DocsF1,
+    DocsF2,
+    DocsF3,
+    WDocs,
     bitac,
     RActividades,
     booksJobs,
-    reStartPD,
+    reStartDocsF1,
+    reStartDocsF2,
+    reStartDocsF3,
+    reStartWD,
     reStartB,
     reStartRA,
     reStartBJ,

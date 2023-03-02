@@ -9,26 +9,45 @@ import ContainerInfo from '@containers/ContainerInfo';
 
 import useGetDocs from '@hooks/useGetDocs';
 import ScrollNavDocs from '@components/ScrollNavDocs';
+import ButtonTopScroll from '@components/ButtomTopScroll';
 
-const infoOne = {
-  id: 'Documentos-Principales',
-  title:'Documentos Principales',
-  text: 'Acta de iniciación, documento maestro, etc.'
+const infoDocsFase1 = {
+  id: 'Documentos-Fase-Iniciación',
+  title:'Documentos Fase de Iniciación',
+  text: 'Acta de iniciación.'
 };
 
-const infoTwo = {
+const infoDocsFase2 = {
+  id: 'Documentos-Fase-Estrategía',
+  title:'Documentos Fase de Estrategía',
+  text: 'Plan definición de estrategía, Plan de manejo de riesgos, etc.'
+};
+
+const infoDocsFase3 = {
+  id: 'Documentos-Fase-Requerimientos',
+  title:'Documentos Fase de Requerimientos Funcionales',
+  text: 'Casos de uso, Escenarios de Calidad, etc.'
+};
+
+const infoSemanalDocs = {
+  id: 'Documentos-Semanales',
+  title:'Documentos Semanales',
+  text: 'Actas de reunión, scripts, etc.'
+};
+
+const infoBitacoras = {
   id: 'Bitacoras',
   title:'Bitácoras',
   text: 'Todas las bitácoras de cada integrante.'
 };
 
-const infoThree = {
+const infoRActividades = {
   id: 'Resumenes-De-actividades',
   title:'Resumenes de actividades',
   text: 'Todas los resumenes de actividades de cada integrante.'
 };
 
-const infoFour = {
+const infoBookJoob = {
   id: 'Cuadernos-De-trabajo',
   title:'Cuadernos de trabajo',
   text: 'Todos los cuadernos de trabajo de cada integrante.'
@@ -37,7 +56,10 @@ const infoFour = {
 export default function Home() {
   const { state } = useContext(AppContext);
   const allDocs = useGetDocs();
-  const docs = allDocs.PDocs;
+  const docsFase1 = allDocs.DocsF1;
+  const docsFase2 = allDocs.DocsF2;
+  const docsFase3 = allDocs.DocsF3;
+  const docsW = allDocs.WDocs;
   const bitacoras = allDocs.bitac;
   const RActividades = allDocs.RActividades;
   const booksJobs = allDocs.booksJobs;
@@ -51,14 +73,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ScrollNavDocs />
-      <ContainerInfo info={infoOne} />
-      <DocsContainer docs={docs} />
-      <ContainerInfo info={infoTwo} />
+      <ContainerInfo info={infoDocsFase1} />
+      <DocsContainer docs={docsFase1} />
+      <ContainerInfo info={infoDocsFase2} />
+      <DocsContainer docs={docsFase2} />
+      <ContainerInfo info={infoDocsFase3} />
+      <DocsContainer docs={docsFase3} />
+      <ContainerInfo info={infoSemanalDocs} />
+      <DocsContainer docs={docsW} />
+      <ContainerInfo info={infoBitacoras} />
       <DocsContainer docs={bitacoras} />
-      <ContainerInfo info={infoThree} />
+      <ContainerInfo info={infoRActividades} />
       <DocsContainer docs={RActividades} />
-      <ContainerInfo info={infoFour} />
+      <ContainerInfo info={infoBookJoob} />
       <DocsContainer docs={booksJobs} />
+      <ButtonTopScroll ruta={'/documentos'} />
       <Footer />
       {state.isViewMenu && <Menu />}
     </>

@@ -16,7 +16,7 @@
     background: $--white;
     box-shadow: 2px 2px 4px $--black;
     border-radius: 8px;
-    z-index: 5;
+    z-index: 2;
 }
 
 .ScrollNavDocs .optionItem {
@@ -37,7 +37,7 @@
 
 .ScrollNavDocs .optionItem .iconOption{
     padding: 4px;
-    width: 42px;
+    width: 32px;
     height: auto;
     transition: transform 200ms ease-in;
     will-change: transform;
@@ -46,7 +46,7 @@
 .ScrollNavDocs .optionItem span {
     display: block;
     color: $--dark-gray;
-    font-size: $--font-size-sm;
+    font-size: $--font-size-ultra-sm;
 }
 
 @media (max-width: 650px) {

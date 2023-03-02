@@ -12,21 +12,21 @@ const ScrollNavDocs = () => {
 
     return (
         <aside className={styles.ScrollNavDocs}>
-            <button className={styles.optionItem} onClick={() => router.push('/documentos/#Documentos-Principales')}>
+            <button className={styles.optionItem} onClick={() => router.push('/documentos/#Documentos-Semanales')}>
                 <Image className={styles.iconOption} src={iconPDocs} alt={'icon principal docs'} />
-                <span>Documentos Principales</span>
+                <span>Docs Semanales</span>
             </button>
             <button className={styles.optionItem} onClick={() => router.push('/documentos/#Bitacoras')}>
                 <Image className={styles.iconOption} src={iconBitacoras} alt={'icon bitacoras'} />
-                <span>Bitácoras de integrantes</span>
+                <span>Bitácoras</span>
             </button>
             <button className={styles.optionItem} onClick={() => router.push('/documentos/#Resumenes-De-actividades')}>
                 <Image className={styles.iconOption} src={iconRActividades} alt={'icon activity resum'} />
-                <span>Resumen de actividades</span>
+                <span>Resumenes</span>
             </button>
             <button className={styles.optionItem} onClick={() => router.push('/documentos/#Cuadernos-De-trabajo')}>
                 <Image className={styles.iconOption} src={iconBJobs} alt={'icon job books'} />
-                <span>Cuadernos de trabajos</span>
+                <span>Cuadernos</span>
             </button>
         </aside>
     );
