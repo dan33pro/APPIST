@@ -20,3 +20,9 @@
     transform: rotate(180deg);
     filter: invert(100%);
 }
+
+@media (max-width: 790px) {
+    .ButtonTopScroll {
+    bottom: 100px;
+}
+}
