@@ -1,28 +1,28 @@
 import { useState } from 'react';
 
-import imgBitacora from '@images/bitacora.jpg';
-import imgResumenActividades from '@images/imgResumenActividades.jpg';
-import imgBookJobs from '@images/imgBookJobs.jpg';
+import imgBitacora from '@images/bitacora-min.jpg';
+import imgResumenActividades from '@images/imgResumenActividades-min.jpg';
+import imgBookJobs from '@images/imgBookJobs-min.jpg';
 
-import imgActaInit from '@images/actaInit.jpg';
-import imgScript from '@images/script.jpg';
-import imgActaMeet from '@images/actaMeet.jpg';
-import imgLogBugs from '@images/logBugs.jpg';
-import imgDocMaster from '@images/docMaster.jpg';
-import imgControlAsig from '@images/controlAsig.jpg';
-import imgDocEstrat from '@images/imgDocEstrat.jpg';
-import imgPMRiesgos from '@images/imgPMRiesgos.jpg';
-import imgPAConfig from '@images/imgPAConfig.jpg';
-import imgLRSemana from '@images/imgLRSemana.jpg';
-import imgRANoPlan from '@images/imgRANPlan.jpg';
-import imgISemanal from '@images/imgISemanal.jpg';
-import imgLCheck from '@images/imgLCheck.jpg';
+import imgActaInit from '@images/actaInit-min.jpg';
+import imgScript from '@images/script-min.jpg';
+import imgActaMeet from '@images/actaMeet-min.jpg';
+import imgLogBugs from '@images/logBugs-min.jpg';
+import imgDocMaster from '@images/docMaster-min.jpg';
+import imgControlAsig from '@images/controlAsig-min.jpg';
+import imgDocEstrat from '@images/imgDocEstrat-min.jpg';
+import imgPMRiesgos from '@images/imgPMRiesgos-min.jpg';
+import imgPAConfig from '@images/imgPAConfig-min.jpg';
+import imgLRSemana from '@images/imgLRSemana-min.jpg';
+import imgRANoPlan from '@images/imgRANPlan-min.jpg';
+import imgISemanal from '@images/imgISemanal-min.jpg';
+import imgLCheck from '@images/imgLCheck-min.jpg';
 
-import imgCasoUso from '@images/imgCasoUso.jpg';
-import imgECalidad from '@images/imgECalidad.jpg';
-import imgMDominio from '@images/imgMDominio.jpg';
-import imgARequerimientos from '@images/imgARequerimientos.jpg';
-import imgListCheckReq from '@images/imgListCheckReq.jpg';
+import imgCasoUso from '@images/imgCasoUso-min.jpg';
+import imgECalidad from '@images/imgECalidad-min.jpg';
+import imgMDominio from '@images/imgMDominio-min.jpg';
+import imgARequerimientos from '@images/imgARequerimientos-min.jpg';
+import imgListCheckReq from '@images/imgListCheckReq-min.jpg';
 
 // Bitacoras por rol
 const btLD = [
