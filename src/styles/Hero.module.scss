@@ -58,7 +58,7 @@
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-image: url('../assets/images/hero_image-min.jpg');
+    background-image: url('../assets/images/hero_image-big.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,5 +71,17 @@
 
     .container-titles {
         grid-column: 2 / 6;
+    }
+}
+
+@media (max-width: 720px) {
+    .image-container {
+        background-image: url('../assets/images/hero_image-small.jpg');
+    }
+}
+
+@media (max-width: 1480px) {
+    .image-container {
+        background-image: url('../assets/images/hero_image-middle.jpg');
     }
 }
