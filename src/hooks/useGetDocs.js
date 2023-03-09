@@ -24,6 +24,11 @@ import imgMDominio from '@images/imgMDominio-min.jpg';
 import imgARequerimientos from '@images/imgARequerimientos-min.jpg';
 import imgListCheckReq from '@images/imgListCheckReq-min.jpg';
 
+import imgEDT from '@images/imgEDT.jpg';
+import imgPCCalidad from '@images/imgPCCalidad.jpg';
+import imgPostM from '@images/imgPostM.jpg';
+import imgSUMQ from '@images/imgSUMQ.jpg';
+
 // Bitacoras por rol
 const btLD = [
   {
@@ -53,6 +58,13 @@ const btLD = [
     description: 'Semana 4',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/18t7moiuPjRkHV7CX0QALS77ejN60cL6g/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 5,
+    nombre: 'Bitácora de tiempos - LD',
+    description: 'Semana 5',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1BGmqvPEaMsoGL6cA7IZh_CeyBWF3I1LW/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -85,6 +97,13 @@ const btLE = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1jxK8P7NVkoXR9NQo-v6u0ejq_B5VUx29Ve0JJJs1skc/edit?usp=share_link',
   },
+  {
+    id: 5,
+    nombre: 'Bitácora de tiempos - LE',
+    description: 'Semana 5',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1EvSpoewGv4ogdbbgHsGPQkhRlhC6KHvohxfsJb5iq3U/edit?usp=share_link',
+  },
 ];
 
 const btLC = [
@@ -115,6 +134,13 @@ const btLC = [
     description: 'Semana 4',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/14YSegjcVUoMzdcEzOlElSrJEmPOTJhtG/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 5,
+    nombre: 'Bitácora de tiempos - LC',
+    description: 'Semana 5',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/16n__CqzikUyuKrGeG6jEt1fZDDlUGwAH/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -147,6 +173,13 @@ const btLA = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1UoTc1cAUzNLJYEbSmR3hWDhi2b-EaBGS/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 5,
+    nombre: 'Bitácora de tiempos - LA',
+    description: 'Semana 5',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1tlhadBnpG7AwxCArc_zx_cuwxiHwYDDw/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLS = [
@@ -178,6 +211,13 @@ const btLS = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1x9GPRsWSHrt9OQPQ0zqeciuKoYiS36nG/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 5,
+    nombre: 'Bitácora de tiempos - LS',
+    description: 'Semana 5',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1dw62QRVVCmj2Td-HUqNYQYuIzRYvk0eq/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLP = [
@@ -202,6 +242,13 @@ const btLP = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1nucrstN6Dc5Zqn95Mvk780CKZOVIeo1J/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 5,
+    nombre: 'Bitácora de tiempos - LP',
+    description: 'Semana 5',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1OlgF1rBu_42qPR9pWSpOOIcDt17YELPp/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 // Resumen de actividades por rol
@@ -219,6 +266,13 @@ const RActividadesLD = [
     description: 'Semana 4',
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1ONI2p4MdHylzuhQ4TTAMT7Z4XeZzyT8r/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Resumen de actividades - LD',
+    description: 'Semana 5',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1neZo6yeEkgjBN8pV-gipstbig8HQZtaE/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -247,6 +301,13 @@ const RActividadesLC = [
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1aq90KfqGMvSdS5f3-cGhxqjhZgXcVyYe/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 3,
+    nombre: 'Resumen de actividades - LC',
+    description: 'Semana 5',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1zV_047QkmmPoMObx8eopO9vZsWaGcwC8/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const RActividadesLA = [
@@ -263,6 +324,13 @@ const RActividadesLA = [
     description: 'Semana 4',
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1fwXCz9MuwtRWS_V4A-ERGSF2eSTrsaLw/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Resumen de actividades - LA',
+    description: 'Semana 5',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1e0nQvoQfUUF44FtbImlVxKgW81fk44ng/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -281,6 +349,13 @@ const RActividadesLS = [
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1bFofj4cxV_xTShmRlwAQEow9fAv9KlsM/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 3,
+    nombre: 'Resumen de actividades - LS',
+    description: 'Semana 5',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/16MMeMan6L0DUFcCLOQDqypj6vGaZRWnV/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const RActividadesLP = [
@@ -297,6 +372,13 @@ const RActividadesLP = [
     description: 'Semana 4',
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/18yyHSEqkHV-Lcc3MPqv-JXA7OoeMNl6A/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Resumen de actividades - LP',
+    description: 'Semana 5',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1tjQlfuX-UVECN3-B2m-ZtAAC36uuff5w/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -323,6 +405,13 @@ const scriptL = [
     img: imgScript,
     path: 'https://docs.google.com/document/d/1wBc93yS6qKq2Xci3wAE5QozaM5DhyYIs/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 4,
+    nombre: 'Script',
+    description: 'Versión 4.',
+    img: imgScript,
+    path: 'https://docs.google.com/document/d/1s1VyBob8HxaNb4SxKpl_aS2a6kGbM9wI/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const actaRL = [
@@ -347,6 +436,13 @@ const actaRL = [
     img: imgActaMeet,
     path: 'https://docs.google.com/document/d/180Y0ENccz78yg5c3A-goRL-itYHVxWF1/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 4,
+    nombre: 'Acta de reunión',
+    description: 'Fase 4',
+    img: imgActaMeet,
+    path: 'https://docs.google.com/document/d/1_p7n4KX4EY2wJXrT2HlbIUJSTOURU7XO/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const actividadesNPL = [
@@ -363,6 +459,13 @@ const actividadesNPL = [
     description: 'Fase 4.',
     img: imgRANoPlan,
     path: 'https://docs.google.com/document/d/1diTr7d1hEpRlXq5Srv2Z735TW_XVOzhc/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Registro de actividades no planeadas',
+    description: 'Fase 5.',
+    img: imgRANoPlan,
+    path: 'https://docs.google.com/document/d/1A_EyHRx_01PjPOm2r_QAp-j9BFLewcEh/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -388,6 +491,13 @@ const informesW = [
     img: imgISemanal,
     path: 'https://docs.google.com/document/d/1lbPhXEahhHh4BFEYFwXeTF5vcGX8KTLqk9CSpvm996c/edit?usp=share_link',
   },
+  {
+    id: 4,
+    nombre: 'Informe semanal',
+    description: 'Semana 4',
+    img: imgISemanal,
+    path: 'https://docs.google.com/document/d/132V_bWVXiaLiLg70ds89RSimqTZYRwrqMW0n9aOt7gg/edit?usp=share_link',
+  },
 ];
 
 const listsCheq = [
@@ -411,6 +521,13 @@ const listsCheq = [
     description: 'Fase 4',
     img: imgLCheck,
     path: 'https://docs.google.com/document/d/1GgldfCj07zTOIRB0vPfjQB22bNfd6v3F/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Lista de chequeo',
+    description: 'Fase 5',
+    img: imgLCheck,
+    path: 'https://docs.google.com/document/d/1Z2zQ36BrN-kmsDlNrO74yh171tW2tqdO/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -436,6 +553,13 @@ const listLogDefect = [
     img: imgLogBugs,
     path: 'https://docs.google.com/document/d/1eWW1KOkdJ4Bh1S0qSqWuDTZzIK7NhCZF/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 4,
+    nombre: 'Log de defectos',
+    description: 'Fase 4',
+    img: imgLogBugs,
+    path: 'https://docs.google.com/document/d/1mYFjePY2jp2wrnUlBMz__EhfXI61HQ3U/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const listRSemanales = [
@@ -452,6 +576,20 @@ const listRSemanales = [
     description: 'Semana 3',
     img: imgLRSemana,
     path: 'https://docs.google.com/document/d/1waQ_IpFUk0drTbc1SkqC4C2R3f7kY5hN/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Listado de reuniones semanales',
+    description: 'Semana 4',
+    img: imgLRSemana,
+    path: 'https://docs.google.com/document/d/1We_f3LQ82mNBbBSelBIGfagEh1gIZO6M/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Listado de reuniones semanales',
+    description: 'Semana 5',
+    img: imgLRSemana,
+    path: 'https://docs.google.com/document/d/1Mug_esoh2bqapYEtgkURNlM2rq_WoDKn/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -476,6 +614,13 @@ const docsMaestroList = [
     description: 'Versión 3',
     img: imgDocMaster,
     path: 'https://docs.google.com/document/d/1Txkp50YY-XiA9TnB2Br8t80XVk-CzbLU/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Documento maestro',
+    description: 'Versión 4',
+    img: imgDocMaster,
+    path: 'https://docs.google.com/document/d/1aYnJi4oAa2LTv5hyridNHpaoLLH-BiaJ/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -611,6 +756,36 @@ const docsFase3 = [
     img: imgListCheckReq,
     path: 'none',
     listB: docsLRequerimientos,
+  },
+];
+const docsFase4 = [
+  {
+    id: 1,
+    nombre: 'Especificación Detallada de Tareas',
+    description: 'Sub división de tareas por artefacto, estimaciones tamaño y tiempo, etc.',
+    img: imgEDT,
+    path: 'https://docs.google.com/document/d/1R1JkIwqJ-_ZpwHfZuPC0Vh82SXKNdUWueNPE1ru_p6E/edit?usp=share_link',
+  },
+  {
+    id: 2,
+    nombre: 'Plan de Control de Calidad',
+    description: 'Alcance, audiencia, principios, actividades, etc.',
+    img: imgPCCalidad,
+    path: 'https://docs.google.com/document/d/14z0hdKOpcajvocaKf4DwjZuXehUuP7UynLp-plqlcYQ/edit?usp=share_link',
+  },
+  {
+    id: 3,
+    nombre: 'Postmortem',
+    description: 'Base del postmortem, etc.',
+    img: imgPostM,
+    path: 'https://docs.google.com/document/d/1uEks2lrG_V8KYIa5iAJXc8q0mfFLpXU5/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'SUMQ Formulario e Instrucciones',
+    description: 'Tasas resumidas, defectos/página, defectos/KLOC, etc.',
+    img: imgSUMQ,
+    path: 'https://docs.google.com/document/d/1KuP8fIOybW3MWLt2k0gms073htlmEAvp/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -841,6 +1016,7 @@ const useGetDocs = () => {
   const [DocsF1, setDocsF1] = useState(docsFase1);
   const [DocsF2, setDocsF2] = useState(docsFase2);
   const [DocsF3, setDocsF3] = useState(docsFase3);
+  const [DocsF4, setDocsF4] = useState(docsFase4);
   const [WDocs, setWDocs] = useState(docsW);
   const [bitac, setBitac] = useState(bitacoras);
   const [RActividades, setRActividades] = useState(resumenesActividades);
@@ -856,6 +1032,10 @@ const useGetDocs = () => {
 
   function reStartDocsF3() {
     setDocsF3(docsFase3);
+  }
+
+  function reStartDocsF4() {
+    setDocsF4(docsFase4);
   }
 
   function reStartWD() {
@@ -878,6 +1058,7 @@ const useGetDocs = () => {
     DocsF1,
     DocsF2,
     DocsF3,
+    DocsF4,
     WDocs,
     bitac,
     RActividades,
@@ -885,6 +1066,7 @@ const useGetDocs = () => {
     reStartDocsF1,
     reStartDocsF2,
     reStartDocsF3,
+    reStartDocsF4,
     reStartWD,
     reStartB,
     reStartRA,
