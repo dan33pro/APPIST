@@ -29,6 +29,12 @@ const infoDocsFase3 = {
   text: 'Casos de uso, Escenarios de Calidad, etc.'
 };
 
+const infoDocsFase4 = {
+  id: 'Documentos-Fase-Planeación',
+  title:'Documentos Fase de Planeación',
+  text: 'EDT(Work Breakdown Structure), Plan Control de Calidad, etc.'
+};
+
 const infoSemanalDocs = {
   id: 'Documentos-Semanales',
   title:'Documentos Semanales',
@@ -59,6 +65,7 @@ export default function Home() {
   const docsFase1 = allDocs.DocsF1;
   const docsFase2 = allDocs.DocsF2;
   const docsFase3 = allDocs.DocsF3;
+  const docsFase4 = allDocs.DocsF4;
   const docsW = allDocs.WDocs;
   const bitacoras = allDocs.bitac;
   const RActividades = allDocs.RActividades;
@@ -79,6 +86,8 @@ export default function Home() {
       <DocsContainer docs={docsFase2} />
       <ContainerInfo info={infoDocsFase3} />
       <DocsContainer docs={docsFase3} />
+      <ContainerInfo info={infoDocsFase4} />
+      <DocsContainer docs={docsFase4} />
       <ContainerInfo info={infoSemanalDocs} />
       <DocsContainer docs={docsW} />
       <ContainerInfo info={infoBitacoras} />
