@@ -9,6 +9,7 @@
     place-items: center;
     background: $--light-gray;
     border-radius: 16px;
+    scroll-snap-align: center;
 }
 .DocCard .container-img {
     width: 100%;

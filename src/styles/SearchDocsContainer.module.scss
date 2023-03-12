@@ -1,0 +1,115 @@
+@import 'vars';
+
+.SearchDocsContainer {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 80px;
+    position: fixed;
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 20px 40px;
+    z-index: 3;
+}
+
+.SearchDocsContainer .Search {
+    min-width: 257px;
+    max-width: 600px;
+    place-self: center;
+    width: 40vw;
+    display: grid;
+    gap: 10px;
+    padding: 5px 10px;
+    grid-template-columns: 8fr 1fr;
+    background: $--white;
+    box-shadow: $--gray 2px 2px 2px;
+    border: 1px solid $--dark-gray;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.SearchDocsContainer .Search img {
+    filter: invert(100%);
+}
+
+.SearchDocsContainer .Search .input-search {
+    background: $--white;
+    padding: 0 10px;
+    color: $--dark-gray;
+    border: none;
+    border-bottom: 1px solid $--dark-gray;
+
+    &:focus {
+        border: none;
+
+        &::placeholder {
+            color: $--gray;
+        }
+    }
+
+    &:active {
+        border: none;
+    }
+}
+
+.SearchDocsContainer .Search .input-search::placeholder {
+    color: $--gray;
+}
+
+.SearchDocsContainer .Search img {
+    width: 32px;
+    height: auto;
+    place-self: center;
+}
+
+.SearchDocsContainer .container-docs {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 72px;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    background: $--white;
+    border: 10px solid $--white;
+    padding-top: 80px;
+    border-radius: 0  0 16px 16px;
+    box-shadow: 2px 2px 2px $--gray;
+    transform: translateY(calc(-100% - 75px));
+    transition: transform 500ms ease-in;
+    will-change: transform;
+    z-index: 1;
+}
+
+.SearchDocsContainer .container-docs.isView {
+    transform: translateY(-80px);
+}
+
+.SearchDocsContainer .container-docs::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.SearchDocsContainer .container-docs::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.SearchDocsContainer .container-docs::-webkit-scrollbar-button:increment,.SearchDocsContainer .container-docs::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.SearchDocsContainer .container-docs::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.SearchDocsContainer .container-docs::-webkit-scrollbar-thumb {
+    background-color: $--gray;
+    border: 2px solid $--white;
+    border-radius: 20px;
+}
+
+.SearchDocsContainer .container-docs::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
