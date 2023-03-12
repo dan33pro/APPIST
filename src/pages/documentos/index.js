@@ -10,6 +10,7 @@ import ContainerInfo from '@containers/ContainerInfo';
 import useGetDocs from '@hooks/useGetDocs';
 import ScrollNavDocs from '@components/ScrollNavDocs';
 import ButtonTopScroll from '@components/ButtomTopScroll';
+import SearchDocsContainer from '@containers/SearchDocsContainer';
 
 const infoDocsFase1 = {
   id: 'Documentos-Fase-Iniciación',
@@ -62,14 +63,27 @@ const infoBookJoob = {
 export default function Home() {
   const { state } = useContext(AppContext);
   const allDocs = useGetDocs();
+
   const docsFase1 = allDocs.DocsF1;
   const docsFase2 = allDocs.DocsF2;
   const docsFase3 = allDocs.DocsF3;
   const docsFase4 = allDocs.DocsF4;
+
   const docsW = allDocs.WDocs;
   const bitacoras = allDocs.bitac;
   const RActividades = allDocs.RActividades;
   const booksJobs = allDocs.booksJobs;
+
+  const ADocs = [
+    ...docsFase1,
+    ...docsFase2,
+    ...docsFase3,
+    ...docsFase4,
+    ...docsW,
+    ...bitacoras,
+    ...RActividades,
+    ...booksJobs,
+  ];
 
   return (
     <>
@@ -79,6 +93,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <SearchDocsContainer docs={ADocs} />
       <ScrollNavDocs />
       <ContainerInfo info={infoDocsFase1} />
       <DocsContainer docs={docsFase1} />

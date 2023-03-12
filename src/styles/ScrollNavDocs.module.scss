@@ -14,9 +14,9 @@
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
     background: $--white;
-    box-shadow: 2px 2px 4px $--black;
+    box-shadow: 2px 2px 4px $--gray;
     border-radius: 8px;
-    z-index: 2;
+    z-index: 4;
 }
 
 .ScrollNavDocs .optionItem {
