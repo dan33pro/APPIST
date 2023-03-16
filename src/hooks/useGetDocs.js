@@ -29,6 +29,14 @@ import imgPCCalidad from '@images/imgPCCalidad.jpg';
 import imgPostM from '@images/imgPostM.jpg';
 import imgSUMQ from '@images/imgSUMQ.jpg';
 
+import imgVistasA from '@images/imgVistasA.jpg';
+import imgModeloClases from '@images/imgModeloClases.jpg';
+import imgModeloDatos from '@images/imgModeloDatos.jpg';
+import imgEDSDS from '@images/imgED-SDS.jpg';
+import imgEIUsuario from '@images/imgEIUsuario.jpg';
+import imgACasosU from '@images/imgACasosU.jpg';
+import imgDocSDS from '@images/imgDocSDS.jpg';
+
 // Bitacoras por rol
 const btLD = [
   {
@@ -65,6 +73,13 @@ const btLD = [
     description: 'Semana 5',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1BGmqvPEaMsoGL6cA7IZh_CeyBWF3I1LW/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Bitácora de tiempos - LD',
+    description: 'Semana 6',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1-Fhi1PZWXENaMYtSM9GN6gqdxXddfY6y/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -104,6 +119,13 @@ const btLE = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1EvSpoewGv4ogdbbgHsGPQkhRlhC6KHvohxfsJb5iq3U/edit?usp=share_link',
   },
+  {
+    id: 6,
+    nombre: 'Bitácora de tiempos - LE',
+    description: 'Semana 6',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1WpyuCC5MGiI2UW6QZBW_bBjmQavbp4813iRL7VNCroA/edit?usp=share_link',
+  },
 ];
 
 const btLC = [
@@ -141,6 +163,13 @@ const btLC = [
     description: 'Semana 5',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/16n__CqzikUyuKrGeG6jEt1fZDDlUGwAH/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Bitácora de tiempos - LC',
+    description: 'Semana 6',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1ViFD4xgjiQrQLjU5O0XmtrP3s_imemdj/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -180,6 +209,13 @@ const btLA = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1tlhadBnpG7AwxCArc_zx_cuwxiHwYDDw/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 6,
+    nombre: 'Bitácora de tiempos - LA',
+    description: 'Semana 6',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/16VmQpvGwQhUh7sU4xrAL_WDu583MugWw/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLS = [
@@ -218,6 +254,13 @@ const btLS = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1dw62QRVVCmj2Td-HUqNYQYuIzRYvk0eq/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 6,
+    nombre: 'Bitácora de tiempos - LS',
+    description: 'Semana 6',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1k7LW7hMV-Lv9rIuIHzTEulhnc6u8mhkY/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLP = [
@@ -249,6 +292,13 @@ const btLP = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1OlgF1rBu_42qPR9pWSpOOIcDt17YELPp/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 6,
+    nombre: 'Bitácora de tiempos - LP',
+    description: 'Semana 6',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1q_gcQOKQnKywVW_olrRZ-SyJnq3bM14E/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 // Resumen de actividades por rol
@@ -273,6 +323,13 @@ const RActividadesLD = [
     description: 'Semana 5',
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1neZo6yeEkgjBN8pV-gipstbig8HQZtaE/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Resumen de actividades - LD',
+    description: 'Semana 6',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1lrk439d0yBzv7sujbsOAK0GAgz8-lyli/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -308,6 +365,13 @@ const RActividadesLC = [
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1zV_047QkmmPoMObx8eopO9vZsWaGcwC8/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 4,
+    nombre: 'Resumen de actividades - LC',
+    description: 'Semana 6',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1DjdgNVXG4dKTG5N5yBx4qFOO-ZhaMH_p/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const RActividadesLA = [
@@ -331,6 +395,13 @@ const RActividadesLA = [
     description: 'Semana 5',
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1e0nQvoQfUUF44FtbImlVxKgW81fk44ng/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Resumen de actividades - LA',
+    description: 'Semana 6',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1B08RWIXfFu2RvxD_c3qLK5lEY4XeEdUM/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -356,6 +427,13 @@ const RActividadesLS = [
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/16MMeMan6L0DUFcCLOQDqypj6vGaZRWnV/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 4,
+    nombre: 'Resumen de actividades - LS',
+    description: 'Semana 6',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/19uBLsMTFz5_K-lMIKAmgAZiaUsK0p3DE/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const RActividadesLP = [
@@ -379,6 +457,13 @@ const RActividadesLP = [
     description: 'Semana 5',
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1tjQlfuX-UVECN3-B2m-ZtAAC36uuff5w/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Resumen de actividades - LP',
+    description: 'Semana 6',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1Q0uS_aCV9nai3XphGb8nBAVKW8XQoYHu/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -412,6 +497,13 @@ const scriptL = [
     img: imgScript,
     path: 'https://docs.google.com/document/d/1s1VyBob8HxaNb4SxKpl_aS2a6kGbM9wI/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 5,
+    nombre: 'Script',
+    description: 'Versión 5.',
+    img: imgScript,
+    path: 'https://docs.google.com/document/d/1O46fIcTf-Zw9Qt5TO_qpkMRBgpyo7FF5/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const actaRL = [
@@ -443,6 +535,13 @@ const actaRL = [
     img: imgActaMeet,
     path: 'https://docs.google.com/document/d/1_p7n4KX4EY2wJXrT2HlbIUJSTOURU7XO/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 5,
+    nombre: 'Acta de reunión',
+    description: 'Fase 5',
+    img: imgActaMeet,
+    path: 'https://docs.google.com/document/d/1LB8P93kCWn9FVgjFNqdb1BYao4FexClk/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const actividadesNPL = [
@@ -466,6 +565,13 @@ const actividadesNPL = [
     description: 'Fase 5.',
     img: imgRANoPlan,
     path: 'https://docs.google.com/document/d/1A_EyHRx_01PjPOm2r_QAp-j9BFLewcEh/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Registro de actividades no planeadas',
+    description: 'Fase 6.',
+    img: imgRANoPlan,
+    path: 'https://docs.google.com/document/d/1uWOC4DJp_xe5OSKW2ozDs_KDLzaA9ew7/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -529,6 +635,13 @@ const listsCheq = [
     img: imgLCheck,
     path: 'https://docs.google.com/document/d/1Z2zQ36BrN-kmsDlNrO74yh171tW2tqdO/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 5,
+    nombre: 'Lista de chequeo',
+    description: 'Fase 6',
+    img: imgLCheck,
+    path: 'https://docs.google.com/document/d/1kaDcFrqa2-3DS8DKPNzY9oJONCAqPFqU/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const listLogDefect = [
@@ -559,6 +672,13 @@ const listLogDefect = [
     description: 'Fase 4',
     img: imgLogBugs,
     path: 'https://docs.google.com/document/d/1mYFjePY2jp2wrnUlBMz__EhfXI61HQ3U/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 5,
+    nombre: 'Log de defectos',
+    description: 'Fase 5',
+    img: imgLogBugs,
+    path: 'https://docs.google.com/document/d/142Z9ZQnOdV33hN6wjOnksvaMf85go9tm/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -591,6 +711,13 @@ const listRSemanales = [
     img: imgLRSemana,
     path: 'https://docs.google.com/document/d/1Mug_esoh2bqapYEtgkURNlM2rq_WoDKn/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 5,
+    nombre: 'Listado de reuniones semanales',
+    description: 'Semana 6',
+    img: imgLRSemana,
+    path: 'https://docs.google.com/document/d/19DzEYb7BAMBEiNoKmmN-uVJoN6AXxm_H/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const docsMaestroList = [
@@ -621,6 +748,13 @@ const docsMaestroList = [
     description: 'Versión 4',
     img: imgDocMaster,
     path: 'https://docs.google.com/document/d/1aYnJi4oAa2LTv5hyridNHpaoLLH-BiaJ/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 5,
+    nombre: 'Documento maestro',
+    description: 'Versión 5',
+    img: imgDocMaster,
+    path: 'https://docs.google.com/document/d/1PQ4EoYNqFk-rxiD7OE9dR4AuzVhC66KZ/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -684,6 +818,44 @@ const docsLRequerimientos = [
     description: 'Lista de Requerimientos Funcionales',
     img: imgListCheckReq,
     path: 'https://docs.google.com/document/d/1-F83o80aX10Bxv10cwnIL3BxFoiY9VBeb1JTEtcufdE/edit?usp=share_link',
+  },
+];
+
+const vistasAL = [
+  {
+    id: 1,
+    nombre: 'Vista de Contexto',
+    description: 'Diagrama de la vista de contexto.',
+    img: imgVistasA,
+    path: 'https://app.luminpdf.com/viewer/641371101085138e93a43c8a',
+  },
+  {
+    id: 2,
+    nombre: 'Vista de Despliegue',
+    description: 'Diagrama de la vista de despliegue.',
+    img: imgVistasA,
+    path: 'https://app.luminpdf.com/viewer/641371571085138e93a457d0',
+  },
+  {
+    id: 3,
+    nombre: 'Vista de Desarrollo',
+    description: 'Diagrama de la vista de desarrollo.',
+    img: imgVistasA,
+    path: 'https://app.luminpdf.com/viewer/641375eb1085138e93a5ecdb',
+  },
+  {
+    id: 4,
+    nombre: 'Vista de Funcional',
+    description: 'Diagrama de la vista de funcional.',
+    img: imgVistasA,
+    path: 'https://app.luminpdf.com/viewer/641371f61085138e93a49b4d',
+  },
+  {
+    id: 5,
+    nombre: 'Vista de Información',
+    description: 'Diagrama de la vista de funcional.',
+    img: imgVistasA,
+    path: 'https://app.luminpdf.com/viewer/6413723a1085138e93a4b1c6',
   },
 ];
 
@@ -786,6 +958,58 @@ const docsFase4 = [
     description: 'Tasas resumidas, defectos/página, defectos/KLOC, etc.',
     img: imgSUMQ,
     path: 'https://docs.google.com/document/d/1KuP8fIOybW3MWLt2k0gms073htlmEAvp/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
+const docsFase5 = [
+  {
+    id: 1,
+    nombre: 'Documento SDS',
+    description: 'Componenetes de presentación, modelo de negocio, persistencia, etc.',
+    img: imgDocSDS,
+    path: 'https://docs.google.com/document/d/1LyiviX_74Ev1spCHSn2xL6hURaKMVuTSH9MZ6hjKy84/edit?usp=share_link',
+  },
+  {
+    id: 2,
+    nombre: 'Modelo de Datos',
+    description: 'Diagramas del modelo de datos.',
+    img: imgModeloDatos,
+    path: 'https://app.luminpdf.com/viewer/64136f421085138e93a39ead',
+  },
+  {
+    id: 3,
+    nombre: 'Modelo de Clases',
+    description: 'Diagramas del modelo de clases.',
+    img: imgModeloClases,
+    path: 'https://app.luminpdf.com/viewer/64136fad1085138e93a3c1b4',
+  },
+  {
+    id: 4,
+    nombre: 'Especificación de interfaz de usuario',
+    description: 'Mockups de la interfaz de usuario.',
+    img: imgEIUsuario,
+    path: 'https://app.luminpdf.com/viewer/641370021085138e93a3dd4a',
+  },
+  {
+    id: 5,
+    nombre: 'Vistas de Arquitectura',
+    description: 'Diagramas de las vistas de arquitectura.',
+    img: imgVistasA,
+    path: 'none',
+    listB: vistasAL,
+  },
+  {
+    id: 6,
+    nombre: 'Asiganación Casos de uso a componetes',
+    description: 'Se asiganan los casos de uso a los componenetes por ciclo.',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1CqQD9ClUX_G5kHR7QoADbhjUZfNL3FTE/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Especificación de diseño SDS',
+    description: 'Introducción, arquitectura de software, diseño detallado.',
+    img: imgEDSDS,
+    path: 'https://docs.google.com/document/d/1cnkN6LCgmKruDSMO3glHz6RNuNfqIjEEpiR8l1sbsps/edit?usp=share_link',
   },
 ];
 
@@ -1017,6 +1241,7 @@ const useGetDocs = () => {
   const [DocsF2, setDocsF2] = useState(docsFase2);
   const [DocsF3, setDocsF3] = useState(docsFase3);
   const [DocsF4, setDocsF4] = useState(docsFase4);
+  const [DocsF5, setDocsF5] = useState(docsFase5);
   const [WDocs, setWDocs] = useState(docsW);
   const [bitac, setBitac] = useState(bitacoras);
   const [RActividades, setRActividades] = useState(resumenesActividades);
@@ -1036,6 +1261,10 @@ const useGetDocs = () => {
 
   function reStartDocsF4() {
     setDocsF4(docsFase4);
+  }
+
+  function reStartDocsF5() {
+    setDocsF5(docsFase5);
   }
 
   function reStartWD() {
@@ -1059,6 +1288,7 @@ const useGetDocs = () => {
     DocsF2,
     DocsF3,
     DocsF4,
+    DocsF5,
     WDocs,
     bitac,
     RActividades,
@@ -1067,6 +1297,7 @@ const useGetDocs = () => {
     reStartDocsF2,
     reStartDocsF3,
     reStartDocsF4,
+    reStartDocsF5,
     reStartWD,
     reStartB,
     reStartRA,

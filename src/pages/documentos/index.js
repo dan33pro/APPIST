@@ -36,6 +36,12 @@ const infoDocsFase4 = {
   text: 'EDT(Work Breakdown Structure), Plan Control de Calidad, etc.'
 };
 
+const infoDocsFase5 = {
+  id: 'Documentos-Fase-Diseño',
+  title:'Documentos Fase de Diseño',
+  text: 'Diseño de arquitectura, Diseño detallado, Especificación de intefaz de usuario, Vistas de arquitectura, Especificación de diseño SDS, etc.'
+};
+
 const infoSemanalDocs = {
   id: 'Documentos-Semanales',
   title:'Documentos Semanales',
@@ -68,6 +74,7 @@ export default function Home() {
   const docsFase2 = allDocs.DocsF2;
   const docsFase3 = allDocs.DocsF3;
   const docsFase4 = allDocs.DocsF4;
+  const docsFase5 = allDocs.DocsF5;
 
   const docsW = allDocs.WDocs;
   const bitacoras = allDocs.bitac;
@@ -79,6 +86,7 @@ export default function Home() {
     ...docsFase2,
     ...docsFase3,
     ...docsFase4,
+    ...docsFase5,
     ...docsW,
     ...bitacoras,
     ...RActividades,
@@ -103,6 +111,8 @@ export default function Home() {
       <DocsContainer docs={docsFase3} />
       <ContainerInfo info={infoDocsFase4} />
       <DocsContainer docs={docsFase4} />
+      <ContainerInfo info={infoDocsFase5} />
+      <DocsContainer docs={docsFase5} />
       <ContainerInfo info={infoSemanalDocs} />
       <DocsContainer docs={docsW} />
       <ContainerInfo info={infoBitacoras} />
