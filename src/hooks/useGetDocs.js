@@ -604,6 +604,13 @@ const informesW = [
     img: imgISemanal,
     path: 'https://docs.google.com/document/d/132V_bWVXiaLiLg70ds89RSimqTZYRwrqMW0n9aOt7gg/edit?usp=share_link',
   },
+  {
+    id: 5,
+    nombre: 'Informe semanal',
+    description: 'Semana 5',
+    img: imgISemanal,
+    path: 'https://docs.google.com/document/d/11WHUNWm_XtlurKUNJw0cyMeunyPmOWNEGLrnCXWgF5c/edit?usp=share_link',
+  },
 ];
 
 const listsCheq = [
