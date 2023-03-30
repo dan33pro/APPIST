@@ -42,6 +42,12 @@ const infoDocsFase5 = {
   text: 'Diseño de arquitectura, Diseño detallado, Especificación de intefaz de usuario, Vistas de arquitectura, Especificación de diseño SDS, etc.'
 };
 
+const infoDocsFase6 = {
+  id: 'Documentos-Fase-Implementación',
+  title:'Documentos Fase de Implementación',
+  text: 'Plan de implementación, Plan de pruebas unitarias.',
+};
+
 const infoSemanalDocs = {
   id: 'Documentos-Semanales',
   title:'Documentos Semanales',
@@ -75,6 +81,7 @@ export default function Home() {
   const docsFase3 = allDocs.DocsF3;
   const docsFase4 = allDocs.DocsF4;
   const docsFase5 = allDocs.DocsF5;
+  const docsFase6 = allDocs.DocsF6;
 
   const docsW = allDocs.WDocs;
   const bitacoras = allDocs.bitac;
@@ -87,6 +94,7 @@ export default function Home() {
     ...docsFase3,
     ...docsFase4,
     ...docsFase5,
+    ...docsFase6,
     ...docsW,
     ...bitacoras,
     ...RActividades,
@@ -113,6 +121,8 @@ export default function Home() {
       <DocsContainer docs={docsFase4} />
       <ContainerInfo info={infoDocsFase5} />
       <DocsContainer docs={docsFase5} />
+      <ContainerInfo info={infoDocsFase6} />
+      <DocsContainer docs={docsFase6} />
       <ContainerInfo info={infoSemanalDocs} />
       <DocsContainer docs={docsW} />
       <ContainerInfo info={infoBitacoras} />
