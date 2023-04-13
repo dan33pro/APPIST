@@ -1,14 +1,35 @@
 import styles from '@styles/AsideDocsContainer.module.scss';
 import AppContext from '@context/AppContext';
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import Image from 'next/image';
 
 import arrow from '@icons/flecha.png';
 import lupa from '@icons/lupa.png';
 import DocItem from '@components/DocItem';
+const removeAccents = require('remove-accents');
+
 
 const AsideDocsContainer = () => {
   const { state, toggleDocAside } = useContext(AppContext);
+  const [listSDoc, setListSDoc] = useState(state.listDocs);
+
+  function searchDocs () {
+    const classNameI = '.'+styles.inputB;
+    const input = document.querySelector(classNameI);
+
+    const value = removeAccents(input.value.toLowerCase());
+    if ( value ) {
+        const rs = state.listDocs.filter( doc => {
+            const rValue = removeAccents(doc.description.toLowerCase());
+            if (rValue.includes(value)) {
+                return doc;
+            }
+        });
+        setListSDoc(rs);
+    } else {
+      setListSDoc(state.listDocs);
+    }
+}
 
   function closeAside() {
     toggleDocAside(false, undefined);
@@ -21,11 +42,11 @@ const AsideDocsContainer = () => {
         <span>{state.selectDoc?.nombre}</span>
       </div>
       <article className={styles['doc-item-container']}>{
-        state.listDocs?.map( doc => <DocItem infoDoc={doc} key={doc.id+'-'+doc.nombre} /> )
+        listSDoc?.map( doc => <DocItem infoDoc={doc} key={doc.id+'-'+doc.nombre} /> )
       }</article>
       <section className={styles['container-bottom']}>
         <div className={styles['panel-busqueda']}>
-          <input className={styles.inputB} type="text" id="busqueda" name="busqueda" />
+          <input className={styles.inputB} type="text" id="busqueda" name="busqueda" onKeyUp={searchDocs} />
         </div>
         <button className={styles['principal-button']}>
           <span>Buscar</span>
