@@ -1,9 +1,9 @@
 @import 'vars';
 
 .DocItem {
-    min-height: 50px;
+    min-height: 70px;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 3fr 4fr 1fr;
     grid-template-rows: 1fr;
     border-radius: 8px;
     background: $--light-gray;
@@ -12,7 +12,7 @@
 
 .DocItem .img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .DocItem .info-item {
@@ -24,7 +24,7 @@
 
 .DocItem .info-item span {
     color: $--dark-gray;
-    font-size: $--font-size-sm;
+    font-size: $--font-size-ultra-sm;
 }
 
 .DocItem .info-item span:nth-child(2) {
@@ -32,9 +32,10 @@
 }
 
 .DocItem .redirect {
-    width: 90%;
-    height: 60%;
+    width: 80%;
+    height: 50%;
     align-self: center;
+    font-size: $--font-size-ultra-sm;
     padding: 5px 10px;
     background: $--gray;
     border-radius: 8px;
