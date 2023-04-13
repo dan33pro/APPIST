@@ -47,7 +47,11 @@ const infoDocsFase6 = {
   title:'Documentos Fase de Implementación',
   text: 'Plan de implementación, Plan de pruebas unitarias.',
 };
-
+const infoDocsFase7 = {
+  id: 'Documentos-Fase-Pruebas',
+  title:'Documentos Fase de Pruebas',
+  text: 'Plan de pruebas, Casos de prueba, log de pruebas.',
+};
 const infoSemanalDocs = {
   id: 'Documentos-Semanales',
   title:'Documentos Semanales',
@@ -82,6 +86,7 @@ export default function Home() {
   const docsFase4 = allDocs.DocsF4;
   const docsFase5 = allDocs.DocsF5;
   const docsFase6 = allDocs.DocsF6;
+  const docsFase7 = allDocs.DocsF7;
 
   const docsW = allDocs.WDocs;
   const bitacoras = allDocs.bitac;
@@ -95,6 +100,7 @@ export default function Home() {
     ...docsFase4,
     ...docsFase5,
     ...docsFase6,
+    ...docsFase7,
     ...docsW,
     ...bitacoras,
     ...RActividades,
@@ -123,6 +129,8 @@ export default function Home() {
       <DocsContainer docs={docsFase5} />
       <ContainerInfo info={infoDocsFase6} />
       <DocsContainer docs={docsFase6} />
+      <ContainerInfo info={infoDocsFase7} />
+      <DocsContainer docs={docsFase7} />
       <ContainerInfo info={infoSemanalDocs} />
       <DocsContainer docs={docsW} />
       <ContainerInfo info={infoBitacoras} />

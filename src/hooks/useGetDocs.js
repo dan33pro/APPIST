@@ -88,6 +88,13 @@ const btLD = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1wUGnSKoiA7FoHfY1sEC-3HRqo0FHdg0u/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 8,
+    nombre: 'Bitácora de tiempos - LD',
+    description: 'Semana 8',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1ApkwtE81afre_7Io01Hq00W0oavIFTbJ/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLE = [
@@ -139,6 +146,13 @@ const btLE = [
     description: 'Semana 7',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1CUol2KRMW_7imx5RbG7rk47t2OK8WH3OfKeAnSlRD5A/edit?usp=share_link',
+  },
+  {
+    id: 8,
+    nombre: 'Bitácora de tiempos - LE',
+    description: 'Semana 8',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1L6MIMh2OqEe5oo4zguVC-x8yEZjNei4Tx3DDnbu_tsI/edit?usp=sharing',
   },
 ];
 
@@ -192,6 +206,13 @@ const btLC = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1k-JBgq00q2jJtTKeoOE7SV78z8CLSkRM/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 8,
+    nombre: 'Bitácora de tiempos - LC',
+    description: 'Semana 8',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/11kdkRsHciuvwabGT8PuzJL358kOrg26D/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLA = [
@@ -243,6 +264,13 @@ const btLA = [
     description: 'Semana 7',
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1b17v5OdDi-T-7qWBEQKg0Dj8-wBDkSgn/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 8,
+    nombre: 'Bitácora de tiempos - LA',
+    description: 'Semana 8',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1ZySJmoNaBwtLzbz3fZSlJhK0OQOowKEm/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -296,6 +324,13 @@ const btLS = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/1zOCOVpcyMhidyOhvJ3qQGfbL8K66socO/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 8,
+    nombre: 'Bitácora de tiempos - LS',
+    description: 'Semana 8',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1U3sHSPRiI6nc4mcfhSDAxROHEZUY4VEo/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const btLP = [
@@ -341,6 +376,13 @@ const btLP = [
     img: imgBitacora,
     path: 'https://docs.google.com/document/d/11g2gELXIX3f4wphwDOan8NgFZLQJRxz7/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 8,
+    nombre: 'Bitácora de tiempos - LP',
+    description: 'Semana 8',
+    img: imgBitacora,
+    path: 'https://docs.google.com/document/d/1KniX42y1tBBfg1-T2sDaDr_7XdFY8ygE/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 // Resumen de actividades por rol
@@ -379,6 +421,13 @@ const RActividadesLD = [
     description: 'Semana 7',
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1GOpJEzBtFyLeG_BMdZymtCoIV4BrPBqW/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Resumen de actividades - LD',
+    description: 'Semana 8',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1gx7H3ZNod5XXVZHPIc1otdf0OsYKOkQD/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -428,6 +477,13 @@ const RActividadesLC = [
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1-XwzPnDAb7gwygC6QOCqM9ciJAhnn29z/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 6,
+    nombre: 'Resumen de actividades - LC',
+    description: 'Semana 8',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1V9CaBxH4qkAyJOOgTr3hIlObRwEa-7Gn/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const RActividadesLA = [
@@ -465,6 +521,13 @@ const RActividadesLA = [
     description: 'Semana 7',
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1g5NPhZEQcM8lg_nwXfMHVXwk70wUypQJ/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Resumen de actividades - LA',
+    description: 'Semana 8',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/1b4c6y0da24zWTP1yGSclLAEpyvG-4Fxa/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -504,6 +567,13 @@ const RActividadesLS = [
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1Mun43vEeND1dkJBhYQSIY8LZkyk9XAv9/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 6,
+    nombre: 'Resumen de actividades - LS',
+    description: 'Semana 8',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/12CkPrKRPWWNAynzfE6VM9oIFJ9chhfGl/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const RActividadesLP = [
@@ -541,6 +611,13 @@ const RActividadesLP = [
     description: 'Semana 7',
     img: imgResumenActividades,
     path: 'https://docs.google.com/document/d/1GQtDtsmohFMVTWjWdk1SBKaXqAGI_Fnm/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Resumen de actividades - LP',
+    description: 'Semana 8',
+    img: imgResumenActividades,
+    path: 'https://docs.google.com/document/d/12582T4BjmkGVIkdbpd1E9ygfO8e-myIg/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -588,6 +665,13 @@ const scriptL = [
     img: imgScript,
     path: 'https://docs.google.com/document/d/119bI7GrN-pwoqFTLesvZYv1SlvMXqKpq/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 7,
+    nombre: 'Script',
+    description: 'Versión 7.',
+    img: imgScript,
+    path: 'https://docs.google.com/document/d/1dbY-N_6Hp9J08lcTQlKvzjabXYJQ9UEo/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const actaRL = [
@@ -633,6 +717,13 @@ const actaRL = [
     img: imgActaMeet,
     path: 'https://docs.google.com/document/d/17w2kdghOdQjWJ8860Xwa49enmN3Frldo/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 7,
+    nombre: 'Acta de reunión',
+    description: 'Fase 7',
+    img: imgActaMeet,
+    path: 'https://docs.google.com/document/d/1Jweut3Q8hngZq5hNgMQh8F8RQkNPt1Vp/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const actividadesNPL = [
@@ -670,6 +761,13 @@ const actividadesNPL = [
     description: 'Fase 7.',
     img: imgRANoPlan,
     path: 'https://docs.google.com/document/d/1wEtz1VFLLsDEpsUyXMjQdzk-Wfqb3aFA/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Registro de actividades no planeadas',
+    description: 'Fase 8.',
+    img: imgRANoPlan,
+    path: 'https://docs.google.com/document/d/1wdGw8vDQbLRlwMn7-r0T8xpM7lWey244/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -716,6 +814,13 @@ const informesW = [
     img: imgISemanal,
     path: 'https://docs.google.com/document/d/1wLQG1RNKLFGnqGZalYTDmtdmhStD6CEbwTeMOi59WFU/edit?usp=share_link',
   },
+  {
+    id: 7,
+    nombre: 'Informe semanal',
+    description: 'Semana 7',
+    img: imgISemanal,
+    path: 'https://drive.google.com/drive/folders/1rVAZvUkGMYDozt9IHrVwhU_mDBOc0Epz?usp=sharing',
+  },
 ];
 
 const listsCheq = [
@@ -760,6 +865,13 @@ const listsCheq = [
     description: 'Fase 7',
     img: imgLCheck,
     path: 'https://docs.google.com/document/d/19UPIMwnHTrWt6D7ryct6TzItiIeZifl1/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 7,
+    nombre: 'Lista de chequeo',
+    description: 'Fase 8',
+    img: imgLCheck,
+    path: 'https://docs.google.com/document/d/1PH29JehdN3kxH-FiVZvQ-taRL2tfQhGu/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -806,6 +918,13 @@ const listLogDefect = [
     img: imgLogBugs,
     path: 'https://docs.google.com/document/d/13qqhbeye_dv6fpzjWHDPRN52fgrZQM9u/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 7,
+    nombre: 'Log de defectos',
+    description: 'Fase 7',
+    img: imgLogBugs,
+    path: 'https://docs.google.com/document/d/1u2WKLDXZ403Y29q0FGwgvhJ3ulxXbhFX/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const listRSemanales = [
@@ -851,6 +970,13 @@ const listRSemanales = [
     img: imgLRSemana,
     path: 'https://docs.google.com/document/d/1Q25MRayILgpI9ejAKVThFmx71LTuy2FL/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
   },
+  {
+    id: 7,
+    nombre: 'Listado de reuniones semanales',
+    description: 'Semana 8',
+    img: imgLRSemana,
+    path: 'https://docs.google.com/document/d/1b9IKO3dR8EIUkmy-xEYyzC_PgYATKv9T/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
 ];
 
 const docsMaestroList = [
@@ -895,6 +1021,13 @@ const docsMaestroList = [
     description: 'Versión 6',
     img: imgDocMaster,
     path: 'https://docs.google.com/document/d/1B8b07cSTDnh9Z9ecoI1VAMywYq-zv5HA/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 7,
+    nombre: 'Documento maestro',
+    description: 'Versión 7',
+    img: imgDocMaster,
+    path: 'https://docs.google.com/document/d/13yEufhOPE8kr1pJOlCkQ4cqfcYJADUEO/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -996,6 +1129,127 @@ const vistasAL = [
     description: 'Diagrama de la vista de funcional.',
     img: imgVistasA,
     path: 'https://app.luminpdf.com/viewer/6413723a1085138e93a4b1c6',
+  },
+];
+const detalleCasosPrueba = [
+  {
+    id: 1,
+    nombre: 'Detalle de Caso de Prueba 1',
+    description: 'Registro tipo de señalización',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/156Mozs_X_ukXbsnQJqlMna79Nxtv97Zn/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Detalle de Caso de Prueba 2',
+    description: 'Registro tipo de incidente',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1cTVBNxldGVIAEji_U6d8yjkv6sYpwXxA/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Detalle de Caso de Prueba 3',
+    description: 'Registro prioridad',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1wpCeNoIctpJvvvGWtnSjQXilVoQRrU6o/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Detalle de Caso de Prueba 4',
+    description: 'Registro Localidad',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1g8V9Xva0tlc7gvXB0-dKGP5C4wpeL8wp/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 5,
+    nombre: 'Detalle de Caso de Prueba 5',
+    description: 'Registro Incidente',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1-Hy017FHtPgfWKwsm15N4h9BEHpmqIGn/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 6,
+    nombre: 'Detalle de Caso de Prueba 6',
+    description: 'Registro Estado de Incidente',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1-L6g7CM8JOtDVpI1aTBa9t2Jj31eTeSY/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 7,
+    nombre: 'Detalle de Caso de Prueba 7',
+    description: 'Registro Eliminar Usuario',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1_53apJbBnJ1FUihnZogLxVKITpX_xWPU/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 8,
+    nombre: 'Detalle de Caso de Prueba 8',
+    description: 'Registro Barrio',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1ru74GDBP5K4xAOiS6QX9LkuXH__YPxjL/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 9,
+    nombre: 'Detalle de Caso de Prueba 9',
+    description: 'Registro Posible solución',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1uokly-iA4S6Y4HnPgIH2YlLrCT-jLrcl/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 10,
+    nombre: 'Detalle de Caso de Prueba 10',
+    description: 'Registro Usuario',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1Zas62TU3hnDiGLzjWAnTZJuI0BFxwvuH/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 11,
+    nombre: 'Detalle de Caso de Prueba 11',
+    description: 'Recuperar Password',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1dyKuh0LuN_dHSrdRiu8SQCrSHjJ2AC_o/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 12,
+    nombre: 'Detalle de Caso de Prueba 12',
+    description: 'Iniciar Sesión',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1sH_D2cweKJLW1zcfg0SSJ2dlqhtHu_VB/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 13,
+    nombre: 'Detalle de Caso de Prueba 13',
+    description: 'Editar Usuario',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1ChJtiY0eDy2_w4A5v5vkrz2nk0_oXvwu/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 14,
+    nombre: 'Detalle de Caso de Prueba 14',
+    description: 'Detalle de Incidente',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1QhGnbIpek7nHt08t9wHJasjsZkD2H_4T/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 15,
+    nombre: 'Detalle de Caso de Prueba 15',
+    description: 'Consulta listado de Incidentes',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1zkfSn8JAdw8wxdm0VppETU1VoAWijW9f/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 16,
+    nombre: 'Detalle de Caso de Prueba 16',
+    description: 'Cerrar Sesión',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1xohPgRrS5sqdi3hvD_37CeNXMMs6Pgs4/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 17,
+    nombre: 'Detalle de Caso de Prueba 17',
+    description: 'Asignación solución',
+    img: imgACasosU,
+    path: 'https://docs.google.com/document/d/1Tx3ppFcmwW42mHDL2wjKA5O4WOniopgA/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
   },
 ];
 
@@ -1166,6 +1420,37 @@ const docsFase6 = [
     description: 'Estandares de iplementación, planeación,.',
     img: imgModeloDatos,
     path: 'https://docs.google.com/document/d/1ffoiV8R6DuYZcc-Nj1m9khbQXvqJsK_z_fY1dfNAF3I/edit?usp=share_link',
+  },
+];
+const docsFase7 = [
+  {
+    id: 1,
+    nombre: 'Plan de pruebas',
+    description: 'Objetivo, Plan de pruebas de integración, etc.',
+    img: imgDocSDS,
+    path: 'https://docs.google.com/document/d/1zk4ePkuqZaPzsMIL_tC_FSTfevqgOKti/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Pruebas de integración',
+    description: 'Casos de escenario, elementos a probar, criterios de aceptación o rechazo, etc.',
+    img: imgModeloDatos,
+    path: 'https://docs.google.com/document/d/1s0krnAboITjQ19q-97XJJumPik6VeWeaHQzC7fwjaUs/edit?usp=sharing',
+  },
+  {
+    id: 3,
+    nombre: 'Log de pruebas casos de prueba',
+    description: 'Log de registro de defectos para los casos de prueba',
+    img: imgLCheck,
+    path: 'https://docs.google.com/document/d/1L-PQio-PMFsYJlpcuCAoi5mYAN4DhQjF/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Detalle de Casos de Prueba',
+    description: 'Fecha, Pre-requisitos, acción usuario, respuesta, resultados, etc.',
+    img: imgACasosU,
+    path: 'none',
+    listB: detalleCasosPrueba,
   },
 ];
 
@@ -1346,6 +1631,43 @@ const resumenesActividades = [
     listB: RActividadesLP,
   },
 ];
+const cuadernosDeTrabajosLP = [
+  {
+    id: 1,
+    nombre: 'Cuadernos de trabajos - LP',
+    description: 'Fase 4',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1CcoYcZdosOkGoiLF-laHxR9Zxwe0H-Em/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 2,
+    nombre: 'Cuadernos de trabajos - LP',
+    description: 'Fase 5',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1_IMxdiquf1NiHvb_XU8p95WC_wbNHElj/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 3,
+    nombre: 'Cuadernos de trabajos - LP',
+    description: 'Fase 6',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1Pph3BBC4KM9ZxGITfGqU98HcA-EISzo9/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 4,
+    nombre: 'Cuadernos de trabajos - LP',
+    description: 'Fase 7',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1Dci6pl60N01W-cf0pLgssXSIYPp8qx0L/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+  {
+    id: 5,
+    nombre: 'Cuadernos de trabajos - LP',
+    description: 'Fase 8',
+    img: imgBookJobs,
+    path: 'https://docs.google.com/document/d/1kuZzRZWUpKhYXo6ndiNPvZO91JauFK_P/edit?usp=sharing&ouid=116060602621844401144&rtpof=true&sd=true',
+  },
+];
 
 const cuadernosDeTrabajos = [
   {
@@ -1385,10 +1707,11 @@ const cuadernosDeTrabajos = [
   },
   {
     id: 6,
-    nombre: 'Cuaderno de trabajos - LP',
-    description: 'Cuaderno de trabajos del lider de planeación',
+    nombre: 'Cuadernos de trabajos - LP',
+    description: 'Cuadernos de trabajos del lider de planeación',
     img: imgBookJobs,
-    path: 'https://docs.google.com/document/d/1CcoYcZdosOkGoiLF-laHxR9Zxwe0H-Em/edit?usp=share_link&ouid=116060602621844401144&rtpof=true&sd=true',
+    path: 'none',
+    listB: cuadernosDeTrabajosLP,
   },
 ];
 
@@ -1399,6 +1722,7 @@ const useGetDocs = () => {
   const [DocsF4, setDocsF4] = useState(docsFase4);
   const [DocsF5, setDocsF5] = useState(docsFase5);
   const [DocsF6, setDocsF6] = useState(docsFase6);
+  const [DocsF7, setDocsF7] = useState(docsFase7);
   const [WDocs, setWDocs] = useState(docsW);
   const [bitac, setBitac] = useState(bitacoras);
   const [RActividades, setRActividades] = useState(resumenesActividades);
@@ -1428,6 +1752,10 @@ const useGetDocs = () => {
     setDocsF6(docsFase6);
   }
 
+  function reStartDocsF7() {
+    setDocsF7(docsFase7);
+  }
+
   function reStartWD() {
     setWDocs(docsW);
   }
@@ -1451,6 +1779,7 @@ const useGetDocs = () => {
     DocsF4,
     DocsF5,
     DocsF6,
+    DocsF7,
     WDocs,
     bitac,
     RActividades,
@@ -1461,6 +1790,7 @@ const useGetDocs = () => {
     reStartDocsF4,
     reStartDocsF5,
     reStartDocsF6,
+    reStartDocsF7,
     reStartWD,
     reStartB,
     reStartRA,
