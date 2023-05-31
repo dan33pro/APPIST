@@ -1031,7 +1031,7 @@ const docsMaestroList = [
   },
 ];
 
-// Docs por fase
+// Docs por fase Ciclo1
 const escenariosCL = [
   {
     id: 1,

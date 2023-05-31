@@ -7,7 +7,7 @@ import Menu from '@components/Menu';
 import DocsContainer from '@containers/DocsContainer';
 import ContainerInfo from '@containers/ContainerInfo';
 
-import useGetDocs from '@hooks/useGetDocs';
+import useGetDocs from '@hooks/useGetDocsFase1';
 import ScrollNavDocs from '@components/ScrollNavDocs';
 import ButtonTopScroll from '@components/ButtomTopScroll';
 import SearchDocsContainer from '@containers/SearchDocsContainer';

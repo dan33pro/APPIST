@@ -7,8 +7,8 @@ import imgTeam from '@images/equipo-min.jpg';
 
 const cardOne = {
   id: 1,
-  title: 'Documentos',
-  info: 'Documentación actual y enlaces a archivos',
+  title: 'Documentos Fase 1',
+  info: 'Documentación Fase 1 y acceso a archivos',
   img: imgDoc,
 };
 const cardTwo = {
@@ -23,6 +23,12 @@ const cardThree = {
   info: 'Integrantes y contacto',
   img: imgTeam,
 };
+const cardFour = {
+  id: 4,
+  title: 'Documentos Fase 2',
+  info: 'Documentacion Fase Actual y acceso a archivos',
+  img: imgTeam,
+};
 
 const CardsContainer = () => {
 
@@ -30,6 +36,7 @@ const CardsContainer = () => {
     <main className={styles.CardsContainer}>
       <div className={styles.grayB}></div>
       <Card cardInfo={cardOne} key={'card' + cardOne.id} />
+      <Card cardInfo={cardFour} key={'card' + cardFour.id} />
       <Card cardInfo={cardTwo} key={'card' + cardTwo.id} />
       <Card cardInfo={cardThree} key={'card' + cardThree.id} />
     </main>
