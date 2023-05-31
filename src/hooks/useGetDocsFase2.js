@@ -849,6 +849,31 @@ const vistaLaboratorios = [
 
 ]; 
 
+const postMordem = [
+
+  {
+    id: 1,
+    nombre: 'PostMordem por Roles Ciclo 2',
+    description: 'Detalle de Postmordem por Roles',
+    img: imgVistasA,
+    path: 'https://docs.google.com/presentation/d/1tk1tpOUJI6sDWTsifPq1s2UuU8XrpXr6OGktzWTAF50/edit?usp=share_link',
+  },
+  {
+    id: 2,
+    nombre: 'PostMordem Grupal Ciclo 2 ',
+    description: 'Detalle PostMordem General',
+    img: imgVistasA,
+    path: 'https://docs.google.com/presentation/d/1ZuGtOH9SIROYL0PzK0IOSK-zonchg7XD16YMvLv0KQg/edit?usp=share_link',
+  },
+  {
+    id: 3,
+    nombre: 'Informe Postmordem Ciclo 2',
+    description: 'Detalle PostMordem Ciclo 2 - Informe',
+    img: imgVistasA,
+    path: 'https://docs.google.com/document/d/1Wc0nt3gbn1jpz_X0TGMk01Fgg8hjESK6lurhO5-oJnU/edit?usp=share_link',
+  },
+];
+
 const docsFase1 = [
   {
     id: 1,
@@ -1064,6 +1089,13 @@ const docsFase6 = [
     img: imgModeloDatos,
     path: 'https://docs.google.com/document/d/1jWaEmVfX203UZ2SH6XRj9T5xRQUaURoj4zt1rXavUvE/edit?usp=sharing',
   },
+  {
+    id: 3,
+    nombre: 'Pruebas JUnit ',
+    description: 'Especificacion de pruebas JUnit por cada modulo',
+    img: imgModeloDatos,
+    path: 'https://docs.google.com/spreadsheets/d/1i5SsxZaOtchPcfzsf4IGHccrc-og9O8X/edit?usp=share_link&ouid=109380757462002703170&rtpof=true&sd=true',
+  },
   
 ];
 const docsFase7 = [
@@ -1136,6 +1168,19 @@ const docsFase8 = [
     description: 'Estimacion FP, Estimacion Basada en LOC, puntos de funcion, puntos casos de uso, y Estimacion de esfuerzo(Persona mes)',
     img: imgDocSDS,
     path: 'https://docs.google.com/spreadsheets/d/1YilfGSJ-QGWB16HFGTVx5ZD2BqjB42DM/edit?usp=share_link&ouid=109380757462002703170&rtpof=true&sd=true',
+  },
+
+];
+
+const docsFase9 = [
+
+  {
+    id: 1,
+    nombre: 'PostMordem',
+    description: 'Documentos de postMordem General y por Rol',
+    img: imgDocSDS,
+    path: 'none',
+    listB: postMordem,
   },
 
 ];
@@ -1412,6 +1457,7 @@ const useGetDocs = () => {
   const [DocsF6, setDocsF6] = useState(docsFase6);
   const [DocsF7, setDocsF7] = useState(docsFase7);
   const [DocsF8, setDocsF8] = useState(docsFase8);
+  const [DocsF9, setDocsF9] = useState(docsFase9); 
   const [WDocs, setWDocs] = useState(docsW);
   const [bitac, setBitac] = useState(bitacoras);
   const [RActividades, setRActividades] = useState(resumenesActividades);
@@ -1448,6 +1494,11 @@ const useGetDocs = () => {
   function reStartDocsF8(){
     setDocsF8(docsFase8); 
   }
+
+  function reStartDocsF9(){
+    setDocsF9(docsFase9); 
+  }
+
   function reStartWD() {
     setWDocs(docsW);
   }
@@ -1473,6 +1524,7 @@ const useGetDocs = () => {
     DocsF6,
     DocsF7,
     DocsF8,
+    DocsF9,
     WDocs,
     bitac,
     RActividades,
@@ -1485,6 +1537,7 @@ const useGetDocs = () => {
     reStartDocsF6,
     reStartDocsF7,
     reStartDocsF8,
+    reStartDocsF9, 
     reStartWD,
     reStartB,
     reStartRA,

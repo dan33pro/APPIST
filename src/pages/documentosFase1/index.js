@@ -52,6 +52,12 @@ const infoDocsFase7 = {
   title:'Documentos Fase de Pruebas',
   text: 'Plan de pruebas, Casos de prueba, log de pruebas.',
 };
+
+const infoDocsFase8 = {
+  id: 'PostMordem Ciclo 1',
+  title:'Documentos PostMordem Ciclo 1',
+  text: 'Documentos individual y grupal de Postmordem',
+};
 const infoSemanalDocs = {
   id: 'Documentos-Semanales',
   title:'Documentos Semanales',
@@ -87,6 +93,7 @@ export default function Home() {
   const docsFase5 = allDocs.DocsF5;
   const docsFase6 = allDocs.DocsF6;
   const docsFase7 = allDocs.DocsF7;
+  const docsFase8 = allDocs.DocsF8; 
 
   const docsW = allDocs.WDocs;
   const bitacoras = allDocs.bitac;
@@ -101,6 +108,7 @@ export default function Home() {
     ...docsFase5,
     ...docsFase6,
     ...docsFase7,
+    ...docsFase8,
     ...docsW,
     ...bitacoras,
     ...RActividades,
@@ -131,6 +139,8 @@ export default function Home() {
       <DocsContainer docs={docsFase6} />
       <ContainerInfo info={infoDocsFase7} />
       <DocsContainer docs={docsFase7} />
+       <ContainerInfo info={infoDocsFase8} />
+      <DocsContainer docs={docsFase8} />
       <ContainerInfo info={infoSemanalDocs} />
       <DocsContainer docs={docsW} />
       <ContainerInfo info={infoBitacoras} />

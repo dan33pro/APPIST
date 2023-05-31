@@ -1031,6 +1031,25 @@ const docsMaestroList = [
   },
 ];
 
+const PostMordem = [
+
+  {
+    id: 1,
+    nombre: 'Documento PostMordem Grupal Ciclo 1',
+    description: 'Documento PostMordem Ciclo 1',
+    img: imgDocMaster,
+    path: 'https://docs.google.com/presentation/d/1quOhU8M92FdsHLnhc8RBv7CBNC25hBvF44_-zBGftC4/edit?usp=sharing',
+  },
+  {
+    id: 2,
+    nombre: 'Documento PostMordem por Roles - Ciclo 1',
+    description: 'PostMordem Ciclo 1 Roles',
+    img: imgDocMaster,
+    path: 'https://docs.google.com/presentation/d/15W5fBuy3ejPDSjapItvblw5gSrESSm2bNPxEORvGtPQ/edit?usp=sharing',
+  },
+
+];
+
 // Docs por fase Ciclo1
 const escenariosCL = [
   {
@@ -1454,6 +1473,20 @@ const docsFase7 = [
   },
 ];
 
+const docsFase8 = [
+
+  {
+    id: 1, 
+    nombre: 'PostMordem Ciclo 1', 
+    description: 'Documentos PostMordem Ciclo 1',
+    img: imgLCheck, 
+    path: 'none', 
+    listB: PostMordem, 
+
+  }
+
+]; 
+
 // General docs
 const docsW = [
   {
@@ -1723,6 +1756,7 @@ const useGetDocs = () => {
   const [DocsF5, setDocsF5] = useState(docsFase5);
   const [DocsF6, setDocsF6] = useState(docsFase6);
   const [DocsF7, setDocsF7] = useState(docsFase7);
+  const [DocsF8, setDocsF8] = useState(docsFase8); 
   const [WDocs, setWDocs] = useState(docsW);
   const [bitac, setBitac] = useState(bitacoras);
   const [RActividades, setRActividades] = useState(resumenesActividades);
@@ -1756,6 +1790,10 @@ const useGetDocs = () => {
     setDocsF7(docsFase7);
   }
 
+  function reStartDocsF8(){
+    setDocsF8(docsFase8); 
+  }
+
   function reStartWD() {
     setWDocs(docsW);
   }
@@ -1780,6 +1818,7 @@ const useGetDocs = () => {
     DocsF5,
     DocsF6,
     DocsF7,
+    DocsF8,
     WDocs,
     bitac,
     RActividades,
@@ -1791,6 +1830,7 @@ const useGetDocs = () => {
     reStartDocsF5,
     reStartDocsF6,
     reStartDocsF7,
+    reStartDocsF8,
     reStartWD,
     reStartB,
     reStartRA,
