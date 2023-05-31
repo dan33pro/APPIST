@@ -21,14 +21,20 @@ const Menu = () => {
     <aside className={styles.Menu}>
       <ul className={styles.list}>
       <li role={'menuitem'} onClick={() => handleRedirigir(0)} onKeyDown={handleRedirigir}>
-          <Link href="/documentos" className={styles['item-list']}>
+          <Link href="/" className={styles['item-list']}>
             Inicio
           </Link>
           <Image src={arrow} alt="icono flecha" />
         </li>
         <li role={'menuitem'} onClick={() => handleRedirigir(1)} onKeyDown={handleRedirigir}>
-          <Link href="/documentos" className={styles['item-list']}>
-            Documentos
+          <Link href="/documentosFase1" className={styles['item-list']}>
+            Documentos Fase 1 
+          </Link>
+          <Image src={arrow} alt="icono flecha" />
+        </li>
+        <li role={'menuitem'} onClick={() => handleRedirigir(4)} onKeyDown={handleRedirigir}>
+          <Link href="/documentosFase2" className={styles['item-list']}>
+            Documentos Fase 2
           </Link>
           <Image src={arrow} alt="icono flecha" />
         </li>

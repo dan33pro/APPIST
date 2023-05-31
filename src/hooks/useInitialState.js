@@ -4,7 +4,7 @@ const initialState = {
   isViewMenu: false,
   isViewDocAside: false,
   selectDoc: undefined,
-  options: ['/','/documentos', '/proyecto', '/equipo'],
+  options: ['/','/documentosFase1', '/proyecto', '/equipo', '/documentosFase2'],
 };
 
 const useInitialState = () => {
