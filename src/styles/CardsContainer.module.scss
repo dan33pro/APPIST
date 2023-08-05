@@ -4,11 +4,11 @@
     position: relative;
     padding: 80px 0 80px;
     width: 100vw;
-    height: calc(100vh + 0.58 * 100vh);
+    height: calc(2.4 * 100vh);
     display: grid;
     place-items: center;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, 4fr);
+    grid-template-rows: repeat(4, 4fr);
     background: $--white;
 }
 
