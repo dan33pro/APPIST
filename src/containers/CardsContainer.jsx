@@ -7,8 +7,8 @@ import imgTeam from '@images/equipo-min.jpg';
 
 const cardOne = {
   id: 1,
-  title: 'Documentos Fase 1',
-  info: 'Documentación Fase 1 y acceso a archivos',
+  title: 'Docs Fase 1',
+  info: 'Documentación y acceso a archivos',
   img: imgDoc,
 };
 const cardTwo = {
@@ -25,8 +25,8 @@ const cardThree = {
 };
 const cardFour = {
   id: 4,
-  title: 'Documentos Fase 2',
-  info: 'Documentacion Fase Actual y acceso a archivos',
+  title: 'Docs Fase 2',
+  info: 'Documentacion y acceso a archivos',
   img: imgTeam,
 };
 
