@@ -1094,7 +1094,7 @@ const docsFase6 = [
     nombre: 'Pruebas JUnit ',
     description: 'Especificacion de pruebas JUnit por cada modulo',
     img: imgModeloDatos,
-    path: 'https://docs.google.com/spreadsheets/d/1i5SsxZaOtchPcfzsf4IGHccrc-og9O8X/edit?usp=share_link&ouid=109380757462002703170&rtpof=true&sd=true',
+    path: 'https://docs.google.com/spreadsheets/d/1i5SsxZaOtchPcfzsf4IGHccrc-og9O8X/edit?usp=sharing&ouid=109380757462002703170&rtpof=true&sd=true',
   },
   
 ];
@@ -1156,7 +1156,21 @@ const docsFase7 = [
     description: 'Se especifica el manual tecnico',
     img: imgDocSDS,
     path: 'https://docs.google.com/document/d/1hMh9eURjneMmrcwsFncn9_Tn-MqGX9p6cuDWc7p3U30/edit?usp=sharing',
+  },{
+    id: 9,
+    nombre: 'Pruebas Aceptacion',
+    description: 'Se especifica el manual de Usuario',
+    img: imgDocSDS,
+    path: 'https://docs.google.com/document/d/1gjuiGPBxOsxbFommsESCd_sx7CbMmBpjrhNUfY_-ehg/edit?usp=drive_link',
   },
+   {
+    id: 10,
+    nombre: 'Pruebas Atributos de Calidad 2',
+    description: 'Se especifica el manual tecnico',
+    img: imgDocSDS,
+    path: 'https://docs.google.com/document/d/1XMikKI88uK7o4RAzk4ZhcxQdmsnxeZquIpdp75v3A7Q/edit?usp=drive_link',
+  },
+  
   
 ];
 
