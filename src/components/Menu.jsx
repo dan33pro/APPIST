@@ -38,18 +38,6 @@ const Menu = () => {
           </Link>
           <Image src={arrow} alt="icono flecha" />
         </li>
-        <li role={'menuitem'} onClick={() => handleRedirigir(2)} onKeyDown={handleRedirigir}>
-          <Link href="/proyecto" className={styles['item-list']}>
-            Proyecto
-          </Link>
-          <Image src={arrow} alt="icono flecha" />
-        </li>
-        <li role={'menuitem'} onClick={() => handleRedirigir(3)} onKeyDown={handleRedirigir}>
-          <Link href="/equipo" className={styles['item-list']}>
-            Equipo
-          </Link>
-          <Image src={arrow} alt="icono flecha" />
-        </li>
       </ul>
       <div className={styles['bottom-menu']}>
         <Image className={styles.logo} src={logo} alt={'logo appist'} />

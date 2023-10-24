@@ -11,18 +11,7 @@ const cardOne = {
   info: 'Documentación y acceso a archivos',
   img: imgDoc,
 };
-const cardTwo = {
-  id: 2,
-  title: 'Proyecto',
-  info: 'Información del proyecto y enlaces',
-  img: imgProj,
-};
-const cardThree = {
-  id: 3,
-  title: 'Equipo',
-  info: 'Integrantes y contacto',
-  img: imgTeam,
-};
+
 const cardFour = {
   id: 4,
   title: 'Docs Fase 2',
@@ -37,8 +26,6 @@ const CardsContainer = () => {
       <div className={styles.grayB}></div>
       <Card cardInfo={cardOne} key={'card' + cardOne.id} />
       <Card cardInfo={cardFour} key={'card' + cardFour.id} />
-      <Card cardInfo={cardTwo} key={'card' + cardTwo.id} />
-      <Card cardInfo={cardThree} key={'card' + cardThree.id} />
     </main>
   );
 };
