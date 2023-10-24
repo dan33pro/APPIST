@@ -2,7 +2,6 @@ import styles from '@styles/CardsContainer.module.scss';
 import Card from '@components/Card';
 
 import imgDoc from '@images/documentos-min.jpg';
-import imgProj from '@images/proyecto-min.jpg';
 import imgTeam from '@images/equipo-min.jpg';
 
 const cardOne = {
